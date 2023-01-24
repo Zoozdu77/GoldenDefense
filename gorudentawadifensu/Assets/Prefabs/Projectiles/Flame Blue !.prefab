@@ -78,7 +78,7 @@ MonoBehaviour:
   Boom: {fileID: 0}
   Damage: 1
   speed: 0
-  timeBeforeDestroy: 0.5
+  timeBeforeDestroy: 1
   DestroyOnCollide: 0
   gotTarget: 0
 --- !u!50 &3310605386086078883

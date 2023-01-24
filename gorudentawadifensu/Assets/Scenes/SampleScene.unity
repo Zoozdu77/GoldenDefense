@@ -14572,6 +14572,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemylist:
   - {fileID: 3921682617688042831, guid: 8073f66b6419e1b4eb5ffd1d43139606, type: 3}
+  - {fileID: 3921682617688042831, guid: 0e62d7b6526d267498efd83b88cf6695, type: 3}
+  - {fileID: 3921682617688042831, guid: d0d0f90248c8e2840b03475790b4b0f5, type: 3}
+  - {fileID: 3921682617688042831, guid: d5d1f10e3681f474ba645ee8ef3ced06, type: 3}
+  - {fileID: 3921682617688042831, guid: 3ede8ccf292bcec4993d4bc8b187ca0a, type: 3}
   checkPoints:
   - {fileID: 457369843}
   - {fileID: 906278153}
@@ -19161,7 +19165,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5668257960966802136}
         m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

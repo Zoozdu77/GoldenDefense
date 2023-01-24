@@ -76,7 +76,7 @@ MonoBehaviour:
   target: {fileID: 0}
   sprite: {fileID: 3547560486739694560}
   Boom: {fileID: 0}
-  Damage: 1
+  Damage: 2
   speed: 0
   timeBeforeDestroy: 1
   DestroyOnCollide: 0

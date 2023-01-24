@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2676ec042e2eb6745ae03494cab2fe06, type: 3}
   m_Name: Demon
   m_EditorClassIdentifier: 
-  life: 40
+  life: 30
   speed: 4
   Damage: 1
   UnitPrice: 6
+  unitType: 0
+  Sprite: {fileID: 0}

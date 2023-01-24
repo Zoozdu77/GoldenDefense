@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2676ec042e2eb6745ae03494cab2fe06, type: 3}
   m_Name: DracoZombie
   m_EditorClassIdentifier: 
-  life: 100
+  life: 50
   speed: 2
   Damage: 1
   UnitPrice: 10
+  unitType: 0
+  Sprite: {fileID: 0}
