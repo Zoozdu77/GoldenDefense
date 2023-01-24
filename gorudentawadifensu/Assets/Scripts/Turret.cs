@@ -23,6 +23,7 @@ public class Turret : MonoBehaviour
 
     public float AttackRange;
     public float attackSpeed;
+    public bool isKrauss;
     private float attackCooldown;
 
 
@@ -50,6 +51,10 @@ public class Turret : MonoBehaviour
         {
             CanLevel[0].SetActive(false);
             CanLevel[1].SetActive(false);
+        }
+        if (isKrauss)
+        {
+            damage = 1 * GeneralVars.ennemyNumber;
         }
     }
 

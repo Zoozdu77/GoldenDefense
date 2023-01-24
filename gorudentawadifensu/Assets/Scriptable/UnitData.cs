@@ -10,4 +10,5 @@ public class UnitData: ScriptableObject
     public float Damage;
     public int UnitPrice;
     public int unitType;
+    public Sprite Sprite;
 }

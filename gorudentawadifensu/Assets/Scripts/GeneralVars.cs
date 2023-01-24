@@ -20,7 +20,7 @@ public class GeneralVars : MonoBehaviour
     public static int throneHealth = 3;
     public static int TimeSpeed = 1;
     public static float BonusHp;
-
+    public static int ennemyNumber;
     private void Start()
     {
         Money = 3000;
@@ -32,14 +32,12 @@ public class GeneralVars : MonoBehaviour
 
     private void Update()
     {
-        MoneyText.text = Money.ToString();
+        MoneyText.text = "Gold : " + Money.ToString();
         scoreText.text = "Score : " + score.ToString();
         BonusHp = Time.time / 20;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale = 0f;
-            GeneralVars.OverlayIsActive = true;
-            Pause.SetActive(true);
+            PauseTheGame();
         }
         for (int i = 0; i < Hearts.Length; i++)
         {
@@ -58,6 +56,13 @@ public class GeneralVars : MonoBehaviour
         }
 
         TimeUse();
+    }
+
+    public void PauseTheGame()
+    {
+        Time.timeScale = 0f;
+        GeneralVars.OverlayIsActive = true;
+        Pause.SetActive(true);
     }
 
     public void TimeControl()

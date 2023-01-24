@@ -13,25 +13,28 @@ public class TurretSpawner : MonoBehaviour
 
     void Update()
     {//Detecting the click on gameobject with tag "cube"
-        if (Input.GetMouseButtonDown(0) && !GeneralVars.OverlayIsActive)
+        foreach (Touch touch in Input.touches)
         {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit))
+            if (touch.phase == TouchPhase.Ended && !GeneralVars.OverlayIsActive)
             {
-                if (hit.transform.gameObject.tag == "turretSpawn")
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(touch.position);
+                if (Physics.Raycast(ray, out hit))
                 {
-                    if (!hit.transform.GetComponent<TurretSpawner>().istaken)
+                    if (hit.transform.gameObject.tag == "turretSpawn")
                     {
-                        Canvas.SetActive(true);
-                        Canvas.GetComponent<MenusBehavior>().targettedSpawner = hit.transform.gameObject;
-                        GeneralVars.OverlayIsActive = true;
-                    } else if (hit.transform.GetComponent<TurretSpawner>().UnitOn.GetComponent<Turret>().Level < hit.transform.GetComponent<TurretSpawner>().UnitOn.GetComponent<Turret>().LevelMax)
-                    {
-                        CanvasUP.SetActive(true);
-                        CanvasUP.GetComponent<Upgrade>().targettedSpawner = hit.transform.gameObject;
-                        CanvasUP.GetComponent<Upgrade>().upStart(hit.transform.GetComponent<TurretSpawner>().UnitOn);
-                        GeneralVars.OverlayIsActive = true;
+                        if (!hit.transform.GetComponent<TurretSpawner>().istaken)
+                        {
+                            Canvas.SetActive(true);
+                            Canvas.GetComponent<MenusBehavior>().targettedSpawner = hit.transform.gameObject;
+                            GeneralVars.OverlayIsActive = true;
+                        } else if (hit.transform.GetComponent<TurretSpawner>().UnitOn.GetComponent<Turret>().Level < hit.transform.GetComponent<TurretSpawner>().UnitOn.GetComponent<Turret>().LevelMax)
+                        {
+                            CanvasUP.SetActive(true);
+                            CanvasUP.GetComponent<Upgrade>().targettedSpawner = hit.transform.gameObject;
+                            CanvasUP.GetComponent<Upgrade>().upStart(hit.transform.GetComponent<TurretSpawner>().UnitOn);
+                            GeneralVars.OverlayIsActive = true;
+                        }
                     }
                 }
             }
