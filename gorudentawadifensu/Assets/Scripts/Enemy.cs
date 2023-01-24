@@ -67,8 +67,9 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("checkPoint"))
+        if (collision.transform.gameObject == checkPoints[targNum])
         {
+            Debug.Log("Ok");
             targNum++;
             if (targNum < checkPoints.Length)
             {

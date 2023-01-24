@@ -31,6 +31,7 @@ public class Turret : MonoBehaviour
     {
         trigger = gameObject.GetComponent<CircleCollider2D>();
         trigger.radius = AttackRange + 0.5f;
+        transform.localPosition = Vector3.zero;
     }
     private void Update()
     {
@@ -106,7 +107,6 @@ public class Turret : MonoBehaviour
         if (!targets.Contains(collision.gameObject) && collision.CompareTag("Enemy"))
         {
             targets.Add(collision.gameObject); 
-
         }
     }
 

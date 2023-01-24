@@ -39,6 +39,16 @@ public class Upgrade : MonoBehaviour
         }
     }
 
+    public void Sellagation()
+    {
+        GeneralVars.Money += Cost / 2;
+        targettedSpawner.GetComponent<TurretSpawner>().istaken = false;
+        Destroy(ToUpObject);
+        Time.timeScale = 1f;
+        GeneralVars.OverlayIsActive = false;
+        gameObject.SetActive(false);
+    }
+
     public void Continue()
     {
         Time.timeScale = 1f; 

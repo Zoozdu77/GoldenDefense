@@ -79,7 +79,6 @@ MonoBehaviour:
   Damage: 0
   speed: 20
   timeBeforeDestroy: 10
-  cooldown: 0
   DestroyOnCollide: 1
   gotTarget: 1
 --- !u!50 &3310605386086078883
