@@ -7,7 +7,6 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemylist;
     public GameObject[] checkPoints;
     public float WaveMoney;
-    //public int Used
 
     private void Start()
     {

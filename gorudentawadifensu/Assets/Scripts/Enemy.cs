@@ -29,15 +29,6 @@ public class Enemy : MonoBehaviour
         target = checkPoints[targNum];
     }
 
-    public void LoadEnemy()
-    {
-        MaxLife = data.life + GeneralVars.BonusHp;
-        Life = MaxLife;
-        speed = data.speed;
-        Damage = data.Damage;
-        EnemyCost = data.UnitPrice;
-    }
-
     private void Update()
     {
         if(FireCooldown > 0)
@@ -95,6 +86,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    #region(fonctions)
+
+    public void LoadEnemy()
+    {
+        MaxLife = data.life + GeneralVars.BonusHp;
+        Life = MaxLife;
+        speed = data.speed;
+        Damage = data.Damage;
+        EnemyCost = data.UnitPrice;
+    }
+
     public void Damaged(int damaged)
     {
         if (damaged > 0)
@@ -112,20 +114,6 @@ public class Enemy : MonoBehaviour
         LifeBar.localScale = new Vector3(Life / MaxLife, 0.75f);
     }
 
-    public IEnumerator Hurt()
-    {
-        sprite.color = Color.red;
-        yield return new WaitForSeconds(0.5f);
-        sprite.color = Color.white;
-    } 
-    
-    public IEnumerator Healed()
-    {
-        sprite.color = Color.green;
-        yield return new WaitForSeconds(0.5f);
-        sprite.color = Color.white;
-    }
-
     public void Die()
     {
        GeneralVars.Money += 1000 + 100 * ((int)EnemyCost) + ((int)GeneralVars.BonusHp);
@@ -133,6 +121,22 @@ public class Enemy : MonoBehaviour
 
         Destroy(this.gameObject);
     }
+    #endregion
 
+    #region(coroutines)
+    public IEnumerator Hurt()
+    {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        sprite.color = Color.white;
+    }
+
+    public IEnumerator Healed()
+    {
+        sprite.color = Color.green;
+        yield return new WaitForSeconds(0.5f);
+        sprite.color = Color.white;
+    }
+    #endregion
 
 }

@@ -21,6 +21,7 @@ public class GeneralVars : MonoBehaviour
     public static int TimeSpeed = 1;
     public static float BonusHp;
     public static int ennemyNumber;
+
     private void Start()
     {
         Money = 3000;
@@ -35,10 +36,12 @@ public class GeneralVars : MonoBehaviour
         MoneyText.text = "Gold : " + Money.ToString();
         scoreText.text = "Score : " + score.ToString();
         BonusHp = Time.time / 20;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseTheGame();
         }
+
         for (int i = 0; i < Hearts.Length; i++)
         {
             if (i >= throneHealth)
@@ -46,6 +49,7 @@ public class GeneralVars : MonoBehaviour
                 Hearts[i].SetActive(true);
             }
         }
+
         if (throneHealth <= 0)
         {
             if (PlayerPrefs.GetInt("HighScore") < score)
@@ -58,6 +62,7 @@ public class GeneralVars : MonoBehaviour
         TimeUse();
     }
 
+    #region(fonctions)
     public void PauseTheGame()
     {
         Time.timeScale = 0f;
@@ -94,4 +99,5 @@ public class GeneralVars : MonoBehaviour
             SpeedButton.sprite = Speedslow;
         }
     }
+    #endregion
 }

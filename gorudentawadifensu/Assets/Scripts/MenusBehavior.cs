@@ -9,6 +9,8 @@ public class MenusBehavior : MonoBehaviour
     public GameObject[] Towers;
     public float[] TowerPrice;
 
+    #region(fonctions)
+    #region(craft des tours)
     public void CraftTower0()
     {
         if (TowerPrice[0] <= GeneralVars.Money)
@@ -109,7 +111,9 @@ public class MenusBehavior : MonoBehaviour
             Debug.Log("Not enough money");
         }
     }
+    #endregion
 
+    #region(boutton utilitaire)
     public void Continue()
     {
         Time.timeScale = 1f;
@@ -133,4 +137,6 @@ public class MenusBehavior : MonoBehaviour
     {
         Application.Quit();
     }
+    #endregion
+    #endregion
 }

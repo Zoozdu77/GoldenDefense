@@ -40,6 +40,7 @@ public class Turret : MonoBehaviour
         {
             StartCoroutine(Shoot());
         }
+
         if (GeneralVars.Money >= Cost * Level && Level < 10)
         {
             CanLevel[0].SetActive(true);
@@ -53,6 +54,7 @@ public class Turret : MonoBehaviour
             CanLevel[0].SetActive(false);
             CanLevel[1].SetActive(false);
         }
+
         if (isKrauss)
         {
             damage = 1 * GeneralVars.ennemyNumber;
@@ -102,6 +104,7 @@ public class Turret : MonoBehaviour
         }
     }
 
+    #region(collisions)
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!targets.Contains(collision.gameObject) && collision.CompareTag("Enemy"))
@@ -117,4 +120,5 @@ public class Turret : MonoBehaviour
             targets.Remove(collision.gameObject);
         }
     }
+    #endregion
 }

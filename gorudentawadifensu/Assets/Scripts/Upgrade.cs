@@ -14,7 +14,7 @@ public class Upgrade : MonoBehaviour
     public Text ToUpCost;
     public int Cost;
 
-
+    #region(upgrade)
     public void upStart(GameObject unit)
     {
         ToUpObject = unit;
@@ -38,6 +38,7 @@ public class Upgrade : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    #endregion
 
     public void Sellagation()
     {
