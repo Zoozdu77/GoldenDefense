@@ -15674,18 +15674,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &5668257959185798025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5668257959185798028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c02898e43d20144599ea6769254ccd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5668257959185798028
 GameObject:
   m_ObjectHideFlags: 0
@@ -15698,7 +15686,6 @@ GameObject:
   - component: {fileID: 5668257959185798031}
   - component: {fileID: 5668257959185798030}
   - component: {fileID: 5668257959185798029}
-  - component: {fileID: 5668257959185798025}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -16414,8 +16401,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5668257960966802136}
-        m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
+      - m_Target: {fileID: 5668257960966802144}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
@@ -19163,8 +19150,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5668257960966802136}
-        m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
+      - m_Target: {fileID: 5668257960966802144}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: quit
         m_Mode: 1
         m_Arguments:
@@ -19687,21 +19674,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Rudolf's wife, her envy allow her to shoot fast
---- !u!114 &5668257960966802136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5668257960966802142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a4b3c6849e6814c9cc01ee2a749337, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targettedSpawner: {fileID: 0}
-  Towers: []
-  TowerPrice: []
 --- !u!114 &5668257960966802137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19751,7 +19723,7 @@ GameObject:
   - component: {fileID: 5668257960966802143}
   - component: {fileID: 5668257960966802138}
   - component: {fileID: 5668257960966802137}
-  - component: {fileID: 5668257960966802136}
+  - component: {fileID: 5668257960966802144}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -19781,6 +19753,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5668257960966802144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668257960966802142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0f0beb446aef544abcec2c4d73c06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5668257960989389428
 RectTransform:
   m_ObjectHideFlags: 0
