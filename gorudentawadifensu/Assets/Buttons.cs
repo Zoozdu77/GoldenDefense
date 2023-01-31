@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
+    public AudioClip[] SoundEffect;
+    public AudioSource SoundSource;
+
     public void Continue()
     {
         Time.timeScale = 1f;
@@ -15,8 +18,10 @@ public class Buttons : MonoBehaviour
 
     public void StartGame()
     {
+        SoundSource.PlayOneShot(SoundEffect[0]);
+        DontDestroyOnLoad(gameObject);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
     }
 
     public void MainMenu()

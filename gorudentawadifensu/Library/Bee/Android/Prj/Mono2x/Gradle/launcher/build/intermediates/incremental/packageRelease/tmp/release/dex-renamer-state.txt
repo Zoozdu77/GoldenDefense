@@ -1,4 +1,4 @@
-#Tue Jan 24 14:32:33 CET 2023
-base.0=T\:\\projets\\GoldenDefense\\gorudentawadifensu\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Tue Jan 31 13:50:29 CET 2023
+base.0=C\:\\Users\\tessi\\GitProjects\\GoldenDefense\\gorudentawadifensu\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
