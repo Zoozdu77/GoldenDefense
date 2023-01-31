@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenusBehavior : MonoBehaviour
 {
@@ -9,7 +8,6 @@ public class MenusBehavior : MonoBehaviour
     public GameObject[] Towers;
     public float[] TowerPrice;
 
-    #region(fonctions)
     #region(craft des tours)
     public void CraftTower0()
     {
@@ -111,32 +109,5 @@ public class MenusBehavior : MonoBehaviour
             Debug.Log("Not enough money");
         }
     }
-    #endregion
-
-    #region(boutton utilitaire)
-    public void Continue()
-    {
-        Time.timeScale = 1f;
-        gameObject.SetActive(false);
-        GeneralVars.OverlayIsActive = false;
-    }
-
-    public void StartGame()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
-    }
-
-    public void MainMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
-    }
-
-    public void quit()
-    {
-        Application.Quit();
-    }
-    #endregion
     #endregion
 }
