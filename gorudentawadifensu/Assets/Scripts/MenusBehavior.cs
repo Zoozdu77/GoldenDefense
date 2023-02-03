@@ -110,4 +110,11 @@ public class MenusBehavior : MonoBehaviour
         }
     }
     #endregion
+
+    public void Continue()
+    {
+        Time.timeScale = 1f;
+        gameObject.SetActive(false);
+        GeneralVars.OverlayIsActive = false;
+    }
 }

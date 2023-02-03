@@ -9,19 +9,12 @@ public class Buttons : MonoBehaviour
     public AudioClip[] SoundEffect;
     public AudioSource SoundSource;
 
-    public void Continue()
-    {
-        Time.timeScale = 1f;
-        gameObject.SetActive(false);
-        GeneralVars.OverlayIsActive = false;
-    }
-
     public void StartGame()
     {
         SoundSource.PlayOneShot(SoundEffect[0]);
         DontDestroyOnLoad(gameObject);
         Time.timeScale = 1f;
-        SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive);
+        SceneManager.LoadScene(1);
     }
 
     public void MainMenu()
