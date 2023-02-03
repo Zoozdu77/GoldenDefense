@@ -15,6 +15,7 @@ public class EnemySpawner : MonoBehaviour
 
     public IEnumerator enemySpawner()
     {
+        yield return new WaitForSeconds(3);
         int usedMoney = 0;
         int compteur = 0;
         while (usedMoney < WaveMoney && compteur < 20)

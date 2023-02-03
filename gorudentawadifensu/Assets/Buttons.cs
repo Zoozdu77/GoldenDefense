@@ -6,15 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public void Continue()
-    {
-        Time.timeScale = 1f;
-        gameObject.SetActive(false);
-        GeneralVars.OverlayIsActive = false;
-    }
+    public AudioClip[] SoundEffect;
+    public AudioSource SoundSource;
 
     public void StartGame()
     {
+        SoundSource.PlayOneShot(SoundEffect[0]);
+        DontDestroyOnLoad(gameObject);
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);
     }

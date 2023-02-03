@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.transform.gameObject == checkPoints[targNum])
         {
-            Debug.Log("Ok");
+
             targNum++;
             if (targNum < checkPoints.Length)
             {
@@ -68,12 +68,9 @@ public class Enemy : MonoBehaviour
             } else
             {
                 GeneralVars.throneHealth--;
+                Debug.Log(GeneralVars.throneHealth);
                 Destroy(gameObject);
             }
-        } else if (collision.CompareTag("Wall"))
-        {
-            collision.GetComponent<Wall>().life--;
-            Destroy(gameObject);
         }
     }
 
