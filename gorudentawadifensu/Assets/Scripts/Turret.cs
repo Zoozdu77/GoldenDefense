@@ -6,7 +6,7 @@ public class Turret : MonoBehaviour
 {
     public GameObject attackType;
     public GameObject[] CanLevel;
-    private List<GameObject> targets = new List<GameObject>();
+    private readonly List<GameObject> targets = new List<GameObject>();
 
     public Animator Anim;
 
@@ -19,7 +19,7 @@ public class Turret : MonoBehaviour
     public int LevelMax = 10;
     public int Level = 0;
     public int Cost;
-    public int damage;
+    public float damage;
 
     public float AttackRange;
     public float attackSpeed;

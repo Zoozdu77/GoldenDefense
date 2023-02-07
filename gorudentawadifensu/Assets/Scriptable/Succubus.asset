@@ -16,3 +16,5 @@ MonoBehaviour:
   speed: 2
   Damage: -5
   UnitPrice: 5
+  unitType: 0
+  Sprite: {fileID: 0}

@@ -405,7 +405,6 @@
 "Assets/Scripts/Turret.cs"
 "Assets/Scripts/TurretSpawner.cs"
 "Assets/Scripts/Upgrade.cs"
-"Assets/Scripts/Wall.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

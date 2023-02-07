@@ -52,7 +52,7 @@ MonoBehaviour:
   Boom: {fileID: 976489712928160528, guid: aaae1a46f3eb81742980b307cee8d106, type: 3}
   Damage: 0
   speed: 15
-  timeBeforeDestroy: 10
+  timeBeforeDestroy: 5
   DestroyOnCollide: 1
   gotTarget: 1
 --- !u!50 &3310605386086078883

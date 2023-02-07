@@ -39,21 +39,19 @@ public class Enemy : MonoBehaviour
         {
             Die();
         }
-    }
 
-    private void FixedUpdate()
-    {
         Vector2 direction = target.transform.position - transform.position;
         Anim.SetFloat("MovementX", direction.x);
         Anim.SetFloat("MovementY", direction.y);
         if (direction.x < 0 && transform.localScale.x < 0)
         {
-            transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-        } else if (transform.localScale.x > 0 && direction.x >= 0)
-        {
-            transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
-        transform.Translate(direction.normalized * speed * Time.fixedDeltaTime);
+        else if (transform.localScale.x > 0 && direction.x >= 0)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+        transform.Translate(direction.normalized * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -94,11 +92,12 @@ public class Enemy : MonoBehaviour
         EnemyCost = data.UnitPrice;
     }
 
-    public void Damaged(int damaged)
+    public void Damaged(float damaged)
     {
         if (damaged > 0)
         {
             StartCoroutine(Hurt());
+            Debug.Log(Life);
         }
         else
         {

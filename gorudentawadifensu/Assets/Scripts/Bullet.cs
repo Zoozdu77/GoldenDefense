@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public GameObject sprite;
     public GameObject Boom;
 
-    public int Damage;
+    public float Damage;
     public float speed;
     public float timeBeforeDestroy;
     private float cooldown;
@@ -29,18 +29,18 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (target == null && gotTarget ||timeBeforeDestroy <= 0)
         {
             Destroy(gameObject);
         }
-        timeBeforeDestroy -= Time.fixedDeltaTime;
-        cooldown -= Time.fixedDeltaTime;
+        timeBeforeDestroy -= Time.deltaTime;
+        cooldown -= Time.deltaTime;
         if (target != null)
         {
             Vector2 direction = target.transform.position - transform.position;
-            transform.Translate(direction.normalized * speed * Time.fixedDeltaTime);
+            transform.Translate(direction.normalized * speed * Time.deltaTime);
         }
     }
 

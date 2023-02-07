@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Zombie
   m_EditorClassIdentifier: 
   life: 10
-  speed: 2
+  speed: 1.5
   Damage: 1
   UnitPrice: 1
   unitType: 0
