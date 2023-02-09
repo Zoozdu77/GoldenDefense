@@ -51,10 +51,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -118,9 +116,6 @@ ScriptsOnlyBuild:
     fullTypeName: MenusBehavior
     methodName: CraftTower2
   - assembly: Assembly-CSharp
-    fullTypeName: Buttons
-    methodName: Continue
-  - assembly: Assembly-CSharp
     fullTypeName: MenusBehavior
     methodName: CraftTower1
   - assembly: Assembly-CSharp
@@ -145,9 +140,29 @@ ScriptsOnlyBuild:
     fullTypeName: MenusBehavior
     methodName: CraftTower4
   - assembly: Assembly-CSharp
+    fullTypeName: MenusBehavior
+    methodName: Continue
+  - assembly: Assembly-CSharp
     fullTypeName: Upgrade
     methodName: Continue
   sceneClasses:
+    Assets/Scenes/EndMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -190,37 +205,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 1858}
+      Script: {instanceID: 1882}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 2156}
     - Class: 114
-      Script: {instanceID: 2204}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2744}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2928}
     - Class: 114
-      Script: {instanceID: 2922}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3260}
+      Script: {instanceID: 3284}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6354}
     - Class: 114
-      Script: {instanceID: 7140}
+      Script: {instanceID: 7164}
     - Class: 114
-      Script: {instanceID: 7816}
+      Script: {instanceID: 7840}
     - Class: 114
-      Script: {instanceID: 8630}
+      Script: {instanceID: 8654}
     - Class: 114
-      Script: {instanceID: 9048}
+      Script: {instanceID: 9072}
     - Class: 114
-      Script: {instanceID: 9588}
+      Script: {instanceID: 9612}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -262,34 +277,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2204}
+      Script: {instanceID: 2228}
     - Class: 114
-      Script: {instanceID: 2438}
+      Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 3280}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 4882}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5054}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 5404}
     - Class: 114
-      Script: {instanceID: 6362}
+      Script: {instanceID: 6386}
     - Class: 114
-      Script: {instanceID: 7140}
+      Script: {instanceID: 7164}
     - Class: 114
-      Script: {instanceID: 7358}
+      Script: {instanceID: 7382}
     - Class: 114
-      Script: {instanceID: 7816}
+      Script: {instanceID: 7840}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,8 +316,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -413,7 +430,7 @@ ScriptsOnlyBuild:
     className: UnitData
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 0254e0ed17819aaa2e68c199727c561d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Buttons
@@ -1459,4 +1476,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/tessi/OneDrive/Bureau/umineko.apk
+  - Assets/Scenes/EndMenu.unity
+  playerPath: C:/Users/ASUS/Desktop/GoldenDef.apk
