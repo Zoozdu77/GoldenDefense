@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.23f1 (9636b062134a) revision 9844400'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'fr' Physical Memory: 16169 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16169 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ T:/projets/GoldenDefense/gorudentawadifensu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52137
+62967
 Successfully changed project path to: T:/projets/GoldenDefense/gorudentawadifensu
 T:/projets/GoldenDefense/gorudentawadifensu
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ T:/projets/GoldenDefense/gorudentawadifensu
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 155.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 156.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
@@ -63,56 +63,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004785 seconds.
+Registered in 0.007497 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 159.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 141.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
+- Completed reload, in  0.784 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (590ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
-				TypeCache.Initialize (127ms)
-					TypeCache.ScanAssembly (126ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (137ms)
+				TypeCache.Initialize (136ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (375ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
+				InitializePlatformSupportModulesInManaged (62ms)
 				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (160ms)
+				RefreshPlugins (141ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004022 seconds.
+Registered in 0.004141 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 154.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 153.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -122,46 +122,46 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.419 seconds
+- Completed reload, in  1.394 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1420ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (135ms)
-		EndReloadAssembly (1071ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (151ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
-				TypeCache.Initialize (276ms)
-					TypeCache.ScanAssembly (272ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (263ms)
+				TypeCache.Initialize (259ms)
+					TypeCache.ScanAssembly (255ms)
+				ResolveRequiredComponents (5ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (583ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (561ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (155ms)
+				RefreshPlugins (153ms)
 				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4342 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 54 unused Assets / (58.3 KB). Loaded Objects now: 4788.
 Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 3.325400 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.356200 ms MarkObjects: 2.558400 ms  DeleteObjects: 0.088000 ms)
+Total: 4.419000 ms (FindLiveObjects: 0.608000 ms CreateObjectMapping: 0.648500 ms MarkObjects: 3.085300 ms  DeleteObjects: 0.076200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,584 +176,1102 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 340539.053128 seconds.
-  path: Assets/but_b25_odoroki1.png
-  artifactKey: Guid(72cfa229d13c12c4e821689c25edcdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/but_b25_odoroki1.png using Guid(72cfa229d13c12c4e821689c25edcdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75ea5568a0c5f09fef480d3154616ca') in 0.233232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.675923 seconds.
-  path: Assets/bea_a34_akuwarai1.png
-  artifactKey: Guid(d29e32be76f0f7341b8df246fc3a93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bea_a34_akuwarai1.png using Guid(d29e32be76f0f7341b8df246fc3a93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d6f766a8a243b537828363c568773d') in 0.168317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.256935 seconds.
-  path: Assets/bea_a14_akuwarai3.png
-  artifactKey: Guid(588cd81cefb5dee428600731caab3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bea_a14_akuwarai3.png using Guid(588cd81cefb5dee428600731caab3d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e430a9720008878ac5ad256d9017faf') in 0.148529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.951814 seconds.
-  path: Assets/Buttons.cs
-  artifactKey: Guid(7d0f0beb446aef544abcec2c4d73c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buttons.cs using Guid(7d0f0beb446aef544abcec2c4d73c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62593303269f1141941c25c7743a8db') in 0.021995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.246908 seconds.
-  path: Assets/font1.otf
-  artifactKey: Guid(6de3cf5223cccdb469e8dd648c73e5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font1.otf using Guid(6de3cf5223cccdb469e8dd648c73e5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87fef356120d78b759fd79e2d38adf5') in 0.061825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.226808 seconds.
-  path: Assets/font1 SDF.asset
-  artifactKey: Guid(38334c55387166344a2f01158db984c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font1 SDF.asset using Guid(38334c55387166344a2f01158db984c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03acd574cebc16b105e78cdd1964701') in 0.038416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.230520 seconds.
-  path: Assets/painting.png
-  artifactKey: Guid(261edb48021f34a41a8e9974e8908fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/painting.png using Guid(261edb48021f34a41a8e9974e8908fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363e824819fab994ca7d13545767db6f') in 0.290425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 754.689846 seconds.
-  path: Assets/Sprites/painting2.png
-  artifactKey: Guid(3d4b851a0e2e8ff4e97a5932ad1650d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/painting2.png using Guid(3d4b851a0e2e8ff4e97a5932ad1650d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043e1d8fca1774a8fa3895ed3c479ff7') in 0.276186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.192756 seconds.
-  path: Assets/Sprites/painting2.png
-  artifactKey: Guid(3d4b851a0e2e8ff4e97a5932ad1650d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/painting2.png using Guid(3d4b851a0e2e8ff4e97a5932ad1650d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4f6602ed68b103011bd51684376270') in 0.281462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.214676 seconds.
-  path: Assets/Prefabs/Projectiles
-  artifactKey: Guid(c4660b13217560d48932d8c2581d3a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Projectiles using Guid(c4660b13217560d48932d8c2581d3a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d2487a12a6e7fe0003b40c6753b10b') in 0.013461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.499131 seconds.
-  path: Assets/Prefabs/Turrets
-  artifactKey: Guid(50052778f6eae304dbdf1faa31649fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets using Guid(50052778f6eae304dbdf1faa31649fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897af18671d417021cc18ff54f1ea6bf') in 0.013931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.958312 seconds.
+  Time since last request: 17083.177526 seconds.
   path: Assets/Prefabs/Turrets/Battler.prefab
   artifactKey: Guid(841d14b8f7a653945891b300fbd7e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Battler.prefab using Guid(841d14b8f7a653945891b300fbd7e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e41dc135448efe73751ba145206df16') in 0.025911 seconds 
+Start importing Assets/Prefabs/Turrets/Battler.prefab using Guid(841d14b8f7a653945891b300fbd7e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c370ae882289f05f97857c4e1839612a') in 0.115182 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.760950 seconds.
-  path: Assets/Prefabs/Turrets/Rosa.prefab
-  artifactKey: Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Rosa.prefab using Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd937babc1b09a38e54c020d1e1df4e5') in 0.010117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.429936 seconds.
-  path: Assets/Prefabs/Turrets/Shannon.prefab
-  artifactKey: Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Shannon.prefab using Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74fcfce6c39fdabb9a10a00c1895222') in 0.010697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.900213 seconds.
-  path: Assets/Prefabs/Turrets/Kannon.prefab
-  artifactKey: Guid(86a9a55a5ccefc341a68f516faf8abf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Kannon.prefab using Guid(86a9a55a5ccefc341a68f516faf8abf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb15eb06235fbb3e998b79b5d5d54cea') in 0.010101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.433759 seconds.
+  Time since last request: 0.654483 seconds.
   path: Assets/Prefabs/Turrets/Krauss.prefab
   artifactKey: Guid(737c22480127d2245b8871fd18867ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Krauss.prefab using Guid(737c22480127d2245b8871fd18867ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9b65bd446eab604bb5c2910bcead58') in 0.010157 seconds 
+Start importing Assets/Prefabs/Turrets/Krauss.prefab using Guid(737c22480127d2245b8871fd18867ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b98c87711b95274d019e572a451ce82') in 0.014173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.620711 seconds.
+  Time since last request: 22.415078 seconds.
+  path: Assets/Prefabs/Turrets/Rosa.prefab
+  artifactKey: Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Rosa.prefab using Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977f5771403bd2b19e2e6cdc9ac33808') in 0.029091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.580081 seconds.
   path: Assets/Prefabs/Turrets/Kyrie.prefab
   artifactKey: Guid(17c47bae59d7f2441949b71533d146cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Kyrie.prefab using Guid(17c47bae59d7f2441949b71533d146cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662d6dfa55b542dfc71e88b4613744b7') in 0.010157 seconds 
+Start importing Assets/Prefabs/Turrets/Kyrie.prefab using Guid(17c47bae59d7f2441949b71533d146cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd55e2a3978e23142a099bb73a3ca604') in 0.010713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.532898 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000000.PNG
-  artifactKey: Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000000.PNG using Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86b9bc2c19f0ac0e11411b93d282ef6') in 0.020166 seconds 
+  Time since last request: 125.604958 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000000.PNG
+  artifactKey: Guid(b065f07ffbfe128469cd975e90c140d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000000.PNG using Guid(b065f07ffbfe128469cd975e90c140d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066666f9a35ab34c0b489e77755f49dd') in 0.078736 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.823437 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000007.PNG
-  artifactKey: Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000007.PNG using Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff93bca58de157b254b2e1b4f707dfb') in 0.014917 seconds 
+  Time since last request: 1.356009 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000001.PNG
+  artifactKey: Guid(637df6bd09e421946ad84bc241eee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000001.PNG using Guid(637df6bd09e421946ad84bc241eee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f206e3e4aaedd1860c60e5c2adb6f50f') in 0.017479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.750708 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000007.PNG
-  artifactKey: Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000007.PNG using Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85bcb939e778c5f7121948d189c381') in 0.014392 seconds 
+  Time since last request: 0.377707 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000002.PNG
+  artifactKey: Guid(cf260f6b6d2938b469f90d85d7c4092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000002.PNG using Guid(cf260f6b6d2938b469f90d85d7c4092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545b7463212cd0a32b65954f2a5897a6') in 0.017453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.053599 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000000.PNG
-  artifactKey: Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000000.PNG using Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db49495ba219db9d51d6046854d612cf') in 0.015117 seconds 
+  Time since last request: 13.973731 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000497.PNG
+  artifactKey: Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000497.PNG using Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf81fb7f2ba2ff87992cb7ce1df557') in 0.015577 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.808304 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000007.PNG
-  artifactKey: Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000007.PNG using Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96cad07b5bd8f428f2bf822b86bc423') in 0.014386 seconds 
+  Time since last request: 7.001840 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000497.PNG
+  artifactKey: Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000497.PNG using Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77590e1d3969f15c19d68e669dcc397b') in 0.015252 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.093587 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000000.PNG
-  artifactKey: Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000000.PNG using Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c5c1ad84aa03f66d72763faa2f7134') in 0.026265 seconds 
+  Time since last request: 107.766280 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000000.PNG
+  artifactKey: Guid(b065f07ffbfe128469cd975e90c140d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000000.PNG using Guid(b065f07ffbfe128469cd975e90c140d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7323fb2807d4212c5e517e81786300f9') in 0.026567 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.784847 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000000.PNG
-  artifactKey: Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000000.PNG using Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacf0dab429195e24e5e64afa732478f') in 0.019251 seconds 
+  Time since last request: 50.830733 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000008.PNG
+  artifactKey: Guid(296857abc7b4dcf489880019fe3c5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000008.PNG using Guid(296857abc7b4dcf489880019fe3c5bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0baeaa26679d6323992a05a8432841') in 0.015730 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.317412 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000001.PNG
-  artifactKey: Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000001.PNG using Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d88b10e99769daa395a47f6d34e3bf') in 0.027326 seconds 
+  Time since last request: 0.892087 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000007.PNG
+  artifactKey: Guid(ce7e83cd554a9114284a36150a6dc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000007.PNG using Guid(ce7e83cd554a9114284a36150a6dc565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd885752d758510ff569f9c7369bcd558') in 0.013762 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.442454 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000001.PNG
-  artifactKey: Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000001.PNG using Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff22324105dc1862162ad731a266691') in 0.019649 seconds 
+  Time since last request: 0.524559 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000009.PNG
+  artifactKey: Guid(e500c41de097cbd4bae882033a743098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000009.PNG using Guid(e500c41de097cbd4bae882033a743098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5201a90bdb5c30a1ccd12f1cc57bbfbf') in 0.024535 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.657218 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000002.PNG
-  artifactKey: Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000002.PNG using Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2b7b3a2682c0dc41ce33f481a218c9') in 0.025814 seconds 
+  Time since last request: 0.136036 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000481.PNG
+  artifactKey: Guid(86d6975823fdfcc489ec7212e89d4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000481.PNG using Guid(86d6975823fdfcc489ec7212e89d4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd0101adf992c2807dcb3c3ec543b28') in 0.014033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.847414 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000002.PNG
-  artifactKey: Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000002.PNG using Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77cc9f0b18ed3b78c430c092bc808b8') in 0.017819 seconds 
+  Time since last request: 0.560864 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000482.PNG
+  artifactKey: Guid(531e4fdec616f1d4e99231eda06bb75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000482.PNG using Guid(531e4fdec616f1d4e99231eda06bb75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d967223f18666e2214278b7e7cc8f78') in 0.024161 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.089293 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000004.PNG
-  artifactKey: Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000004.PNG using Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3bc4b4a6f041e8680cbb272d300f7') in 0.025902 seconds 
+  Time since last request: 0.576689 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000483.PNG
+  artifactKey: Guid(3fc86120bc1f73246ae84557dca5cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000483.PNG using Guid(3fc86120bc1f73246ae84557dca5cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c40f4efcb59de9f1727c03fbf7e967') in 0.024992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.389459 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000003.PNG
-  artifactKey: Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000003.PNG using Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb4ab2bf7d0f3839c367457eb8d999') in 0.015881 seconds 
+  Time since last request: 0.295822 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000484.PNG
+  artifactKey: Guid(a2c03901b73a82749a702a81cb0f03f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000484.PNG using Guid(a2c03901b73a82749a702a81cb0f03f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98d6d1ac6bf464407ad8e61bc127310') in 0.014339 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.352396 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000003.PNG
-  artifactKey: Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000003.PNG using Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0daf08ea25a532d1c87275b9d9ee46') in 0.014388 seconds 
+  Time since last request: 0.319867 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000485.PNG
+  artifactKey: Guid(e626ff4317ae4d242829bb57c76717ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000485.PNG using Guid(e626ff4317ae4d242829bb57c76717ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493bc8f10a3d3e10cbe710f6e1f39016') in 0.025666 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.966361 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000004.PNG
-  artifactKey: Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000004.PNG using Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b24af36ccc1881d90be0c7ae4741d8') in 0.013985 seconds 
+  Time since last request: 5.041725 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000001.PNG
+  artifactKey: Guid(637df6bd09e421946ad84bc241eee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000001.PNG using Guid(637df6bd09e421946ad84bc241eee232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69bc70ecd677b9e8cfe59e019c47d90') in 0.028494 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.642312 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000510.PNG
-  artifactKey: Guid(01af2c0bb05884a4bbecc2387956f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000510.PNG using Guid(01af2c0bb05884a4bbecc2387956f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abddc27e71e00aa8af97fcaaebae792') in 0.021442 seconds 
+  Time since last request: 91.194536 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000002.PNG
+  artifactKey: Guid(cf260f6b6d2938b469f90d85d7c4092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000002.PNG using Guid(cf260f6b6d2938b469f90d85d7c4092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e4bcb6b9cdd98e689258b047bb97b4') in 0.016078 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.515955 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000000.PNG
-  artifactKey: Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000000.PNG using Guid(67e906e1333cdc34eab47ac6df99cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4756c1649eeb9690fb9f0d51c1471cc') in 0.015634 seconds 
+  Time since last request: 0.062368 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000003.PNG
+  artifactKey: Guid(33acdff18b4227c4b9290c461ebff3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000003.PNG using Guid(33acdff18b4227c4b9290c461ebff3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25088b8a11cad9def95b1a833f3e980') in 0.015702 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.880738 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000001.PNG
-  artifactKey: Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000001.PNG using Guid(f570bd181aa70dc4cbe90849df8d69a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd47497d8bd7826e0c4805e6230ecd7') in 0.020245 seconds 
+  Time since last request: 0.083637 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000004.PNG
+  artifactKey: Guid(80db5a8f7080a5e479975e166bf02bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000004.PNG using Guid(80db5a8f7080a5e479975e166bf02bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a820e72afae579d47083e0056c03a66') in 0.015652 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.829404 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000002.PNG
-  artifactKey: Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000002.PNG using Guid(bc85f7350e5a47d4ebc2be1054352843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01af6efa6efd199959c83d5e74279fe3') in 0.019761 seconds 
+  Time since last request: 0.069844 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000005.PNG
+  artifactKey: Guid(2cf0278853d354e4697a11deb6561620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000005.PNG using Guid(2cf0278853d354e4697a11deb6561620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e133830dec94340a9058668307518805') in 0.027453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.706276 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000003.PNG
-  artifactKey: Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000003.PNG using Guid(499d27c8cd72dfc4186508ec787278ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be346a6a482ab01e3549a42628b8c34c') in 0.021002 seconds 
+  Time since last request: 0.070422 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000006.PNG
+  artifactKey: Guid(70d8d0228335b98479e3e2105343a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000006.PNG using Guid(70d8d0228335b98479e3e2105343a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7847611ca7235917eef913b4a27569') in 0.015049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.675209 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000004.PNG
-  artifactKey: Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000004.PNG using Guid(e09736656fc76b14e91ed33e116e2554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9292bf1acd202144fabe8d98ba928251') in 0.019708 seconds 
+  Time since last request: 158.372505 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000486.PNG
+  artifactKey: Guid(f2f2e863d92f34943b00d8a17226eafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000486.PNG using Guid(f2f2e863d92f34943b00d8a17226eafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14759048546527dd4d918bab47af9cf') in 0.031542 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.672950 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000005.PNG
-  artifactKey: Guid(1b2df9d4ff0f7bb4fa569e088c5de4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000005.PNG using Guid(1b2df9d4ff0f7bb4fa569e088c5de4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4a387168d9fb544b38f660f48ecba8') in 0.020848 seconds 
+  Time since last request: 0.409538 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000487.PNG
+  artifactKey: Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000487.PNG using Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2486a9bf65f909486ca647032af73b27') in 0.026881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.626602 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000005.PNG
-  artifactKey: Guid(1b2df9d4ff0f7bb4fa569e088c5de4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000005.PNG using Guid(1b2df9d4ff0f7bb4fa569e088c5de4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a59b171e8c08ffdddf26aa309a763') in 0.016815 seconds 
+  Time since last request: 0.314868 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000488.PNG
+  artifactKey: Guid(fbc0a4a8a4f118e448077792ae2f1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000488.PNG using Guid(fbc0a4a8a4f118e448077792ae2f1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1516dc841227ae11f9e92e7169e61d72') in 0.028083 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.167292 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000006.PNG
-  artifactKey: Guid(dec2256155339cc4d8e8aeab406c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000006.PNG using Guid(dec2256155339cc4d8e8aeab406c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2204d95e5db0998c43afcd14ee93a664') in 0.027896 seconds 
+  Time since last request: 0.313270 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000489.PNG
+  artifactKey: Guid(9774071b91d45f64d9818665b6720748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000489.PNG using Guid(9774071b91d45f64d9818665b6720748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c8064573e8ba4c3077e1daff120f0') in 0.013895 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.884345 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000006.PNG
-  artifactKey: Guid(dec2256155339cc4d8e8aeab406c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000006.PNG using Guid(dec2256155339cc4d8e8aeab406c8fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a0995bd44a5f76cac60dbd3a0b0916') in 0.018689 seconds 
+  Time since last request: 0.343263 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000490.PNG
+  artifactKey: Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000490.PNG using Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767a81ab6c2c107730b36c86b6ac9132') in 0.024646 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.996287 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000007.PNG
-  artifactKey: Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000007.PNG using Guid(1abd1269faf6e674e814c04264666ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c1ca4f3c239696e3486f7df6d9a906') in 0.020657 seconds 
+  Time since last request: 0.329849 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000491.PNG
+  artifactKey: Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000491.PNG using Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8970d21a8f91c313fedab6dfbddcc1') in 0.012745 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.837923 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000008.PNG
-  artifactKey: Guid(2045df5b131064341a3b9d20b96d0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000008.PNG using Guid(2045df5b131064341a3b9d20b96d0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e46b023a73175955e5781b0cf4913f') in 0.015889 seconds 
+  Time since last request: 0.316762 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000492.PNG
+  artifactKey: Guid(17f46010772200f42b380ff0ecbea424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000492.PNG using Guid(17f46010772200f42b380ff0ecbea424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a222c33e4d63f462b0b64933e5a03a2') in 0.026650 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.455431 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000008.PNG
-  artifactKey: Guid(2045df5b131064341a3b9d20b96d0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000008.PNG using Guid(2045df5b131064341a3b9d20b96d0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8cfd31a7717f2f9acfe2c3959b286e') in 0.018162 seconds 
+  Time since last request: 0.294944 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000493.PNG
+  artifactKey: Guid(e8517cf19caaced4f8a7df9d0c8b50e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000493.PNG using Guid(e8517cf19caaced4f8a7df9d0c8b50e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d36aecf47306e21474e2f0fdd66807') in 0.015239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.762821 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000009.PNG
-  artifactKey: Guid(62d9e7551734e7147a18bd3f4f10de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000009.PNG using Guid(62d9e7551734e7147a18bd3f4f10de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93fa4d54657b8f224c3fe8f2c5ad401') in 0.032998 seconds 
+  Time since last request: 0.275540 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000494.PNG
+  artifactKey: Guid(f4d7619f1570c414398bbb2c87ad6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000494.PNG using Guid(f4d7619f1570c414398bbb2c87ad6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bb42f8c948eb3effc949900befb500') in 0.024696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.590452 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000010.PNG
-  artifactKey: Guid(a94ed0c8d99fd404b9b78fdd243e68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000010.PNG using Guid(a94ed0c8d99fd404b9b78fdd243e68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb905ceec15c0e44a6ba3520ad0013e') in 0.030588 seconds 
+  Time since last request: 0.278193 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000495.PNG
+  artifactKey: Guid(f28211ad070e8ba4cbd180fe4c19d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000495.PNG using Guid(f28211ad070e8ba4cbd180fe4c19d529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32affb8fb97d915b8252c5021b265428') in 0.013096 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.223634 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000010.PNG
-  artifactKey: Guid(a94ed0c8d99fd404b9b78fdd243e68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000010.PNG using Guid(a94ed0c8d99fd404b9b78fdd243e68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9165de2efea65bf5e8b69c25ec2dae86') in 0.015269 seconds 
+  Time since last request: 0.335965 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000496.PNG
+  artifactKey: Guid(7b95ff8bcb5d8e14e9edfd468936cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000496.PNG using Guid(7b95ff8bcb5d8e14e9edfd468936cd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5d8266a541dfc493023dd0bdfd5bae') in 0.025515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.116224 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a226bee496df03ecdd8bdd63c546fde') in 0.035518 seconds 
+  Time since last request: 0.582362 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000498.PNG
+  artifactKey: Guid(638f399c2d5e7f24686dc156813d9ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000498.PNG using Guid(638f399c2d5e7f24686dc156813d9ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597edce6e9f1cdf082763cf85ac4eed9') in 0.011700 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.564889 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52827d07a3fa9e9c9c82044c1bbe4093') in 0.022294 seconds 
+  Time since last request: 130.959909 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000486.PNG
+  artifactKey: Guid(f2f2e863d92f34943b00d8a17226eafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000486.PNG using Guid(f2f2e863d92f34943b00d8a17226eafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb29a17c2ec91054fe06dee5ad551d52') in 0.021234 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.253952 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000512.PNG
-  artifactKey: Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000512.PNG using Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900caaab19f14da1be34922a156033a0') in 0.027578 seconds 
+  Time since last request: 17.913989 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000487.PNG
+  artifactKey: Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000487.PNG using Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355a741450030baf3ba10b5ce9024154') in 0.017598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.537309 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000512.PNG
-  artifactKey: Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000512.PNG using Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed30a6cf5ab677e24aab1d6e0a2886b8') in 0.021050 seconds 
+  Time since last request: 18.001857 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000488.PNG
+  artifactKey: Guid(fbc0a4a8a4f118e448077792ae2f1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000488.PNG using Guid(fbc0a4a8a4f118e448077792ae2f1df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ce6cce560fd242a86de5546da24032') in 0.018555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.425225 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000513.PNG
-  artifactKey: Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000513.PNG using Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe737ecd17ef9a3a4f73d1d1b3faaca') in 0.033987 seconds 
+  Time since last request: 159.445811 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000489.PNG
+  artifactKey: Guid(9774071b91d45f64d9818665b6720748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000489.PNG using Guid(9774071b91d45f64d9818665b6720748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95263b2461be9011fbbedd91ecc34c71') in 0.020102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.840948 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000513.PNG
-  artifactKey: Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000513.PNG using Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f578f60111ae89b261359dac147ec9') in 0.018418 seconds 
+  Time since last request: 30.413425 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000490.PNG
+  artifactKey: Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000490.PNG using Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093eacf829260ca51153c848bdaec029') in 0.018851 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.365458 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000512.PNG
-  artifactKey: Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000512.PNG using Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be75384b28ffcdeb0ebcbcca3d468d10') in 0.020527 seconds 
+  Time since last request: 18.034891 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000490.PNG
+  artifactKey: Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000490.PNG using Guid(f2d8be25138ea5047bdcea1b260c6ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c19279c7841f68d167dc903f0c1e73c') in 0.018832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.867358 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000514.PNG
-  artifactKey: Guid(c3f5427305eda1044a789caa8ce02864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000514.PNG using Guid(c3f5427305eda1044a789caa8ce02864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abc74fda81b9e7a1e9020959bbdeaf2') in 0.026253 seconds 
+  Time since last request: 178.422244 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000491.PNG
+  artifactKey: Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000491.PNG using Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dab5c2fb0163f1943eb25a9d989a11') in 0.020116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.450551 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000512.PNG
-  artifactKey: Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000512.PNG using Guid(601274b3c8f6d0c4c8afa3c44a05d600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2efbdf8febf4fef934635c42f88dfe2') in 0.018186 seconds 
+  Time since last request: 28.295447 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000491.PNG
+  artifactKey: Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000491.PNG using Guid(11e7c18956aa8a240a647ebbdfc9edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0ab6ecf6fcf2ebbf22edb75e093d27') in 0.016121 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.076547 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000513.PNG
-  artifactKey: Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000513.PNG using Guid(d052e4efba970a648b963423ab45d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33a5f03d7ddafa7357bab5221374dd4') in 0.018011 seconds 
+  Time since last request: 360.547512 seconds.
+  path: Assets/Prefabs/Turrets/Rosa.prefab
+  artifactKey: Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Rosa.prefab using Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fc4a7b2a18bd87acba282f404d93cf') in 0.023458 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.670237 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000514.PNG
-  artifactKey: Guid(c3f5427305eda1044a789caa8ce02864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000514.PNG using Guid(c3f5427305eda1044a789caa8ce02864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4174a0a043a0961ffdee1f56f93cbcb8') in 0.020609 seconds 
+  Time since last request: 0.667940 seconds.
+  path: Assets/Sprites/Units/Towers/BishopStand.png
+  artifactKey: Guid(13d43ae396d0d1542ac3dfb8a6e0bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Units/Towers/BishopStand.png using Guid(13d43ae396d0d1542ac3dfb8a6e0bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e799c9525f6447a8d7105e8134a7ad') in 0.032847 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 262.527826 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000009.PNG
-  artifactKey: Guid(62d9e7551734e7147a18bd3f4f10de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000009.PNG using Guid(62d9e7551734e7147a18bd3f4f10de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9011ccab4f6ff89b42eb74b8dab3801') in 0.019514 seconds 
+  Time since last request: 0.641580 seconds.
+  path: Assets/Sprites/Units/Towers/MageStand.png
+  artifactKey: Guid(859bb3819ff054b419e79877cf10ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Units/Towers/MageStand.png using Guid(859bb3819ff054b419e79877cf10ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1288efbf71f2afbfd35df7005a00630') in 0.031653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 295.000930 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe
-  artifactKey: Guid(27b3ad9af76e49e4f876a530f7e18ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe using Guid(27b3ad9af76e49e4f876a530f7e18ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da295a8f4a95734ac155ee214a800e8') in 0.002134 seconds 
+  Time since last request: 6.511528 seconds.
+  path: Assets/Prefabs/Turrets/Shannon.prefab
+  artifactKey: Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Shannon.prefab using Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e5bd3c75561762a2480f62f6b5de1e') in 0.016609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.746624 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000003.PNG
-  artifactKey: Guid(d17bd2b46c17944478b887a6e4ff797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000003.PNG using Guid(d17bd2b46c17944478b887a6e4ff797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042d3ec04a1761b69ba768bde9aeee67') in 0.126510 seconds 
+  Time since last request: 0.101918 seconds.
+  path: Assets/Sprites/Units/Towers/SniperStand.png
+  artifactKey: Guid(6f37b9e3ea2e2af478ccb571ffcc4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Units/Towers/SniperStand.png using Guid(6f37b9e3ea2e2af478ccb571ffcc4aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b414e4cc81e5b11b72415afb1eed15d') in 0.019822 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.753014 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000004.PNG
-  artifactKey: Guid(51344d993778f274ba7d5551a827b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000004.PNG using Guid(51344d993778f274ba7d5551a827b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c122873d2e9d5ab29a6e2e2dd5d3888f') in 0.097431 seconds 
+  Time since last request: 78.536648 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000000.png
+  artifactKey: Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000000.png using Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5675acfbe56c52a8804dd4f8dfd77d1') in 0.015888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.032545 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000009.PNG
-  artifactKey: Guid(4217081613ec08f43a3b06cacb742b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000009.PNG using Guid(4217081613ec08f43a3b06cacb742b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a1d82dc479325619b1c824a345a507') in 0.093366 seconds 
+  Time since last request: 12.844469 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000001.png
+  artifactKey: Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000001.png using Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6529635502b17400569ddb833416b36') in 0.014323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.771094 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG
-  artifactKey: Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG using Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bfb21337f28d65c31fdfb095b20abd') in 0.100200 seconds 
+  Time since last request: 7.393886 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000001.png
+  artifactKey: Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000001.png using Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62390e094606b11ad0f21598ece33fa') in 0.013893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.654060 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG
-  artifactKey: Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG using Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d20fe999cc69460be30c2a73b1f73') in 0.108409 seconds 
+  Time since last request: 1.511269 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000000.png
+  artifactKey: Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000000.png using Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cede416ed6d094b2fb4bbd9e17f687c1') in 0.024340 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.229937 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000009.PNG
-  artifactKey: Guid(4217081613ec08f43a3b06cacb742b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000009.PNG using Guid(4217081613ec08f43a3b06cacb742b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c7b0d58c538edd30bc5813967853a5') in 0.010237 seconds 
+  Time since last request: 29.702053 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000001.png
+  artifactKey: Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000001.png using Guid(43151eec481f32440b4426c1fdae1309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f29acccb12a33ad1bf42aa2aa3728bc') in 0.012997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.728413 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG
-  artifactKey: Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG using Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99e2ba3db597c92796369442f55dcb9') in 0.022254 seconds 
+  Time since last request: 11.299285 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000497.PNG
+  artifactKey: Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000497.PNG using Guid(d9d5112d081bcea439d7b0494f8400fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa7675b30d0be37bb3eeed27ce35d64') in 0.017647 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.422968 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG
-  artifactKey: Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG using Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c597ab383a99af0fea6e5d51a4bb6cc5') in 0.153833 seconds 
+  Time since last request: 855.281807 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000003.png
+  artifactKey: Guid(2ebc525efe516f14a87294a6305c9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000003.png using Guid(2ebc525efe516f14a87294a6305c9e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eafd57a064f8933609de07b3935f4ef') in 0.014595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.928846 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG
-  artifactKey: Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000014.PNG using Guid(a6baa424ff9d8cf44816415cbb9c676c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460536ed215dbba2d4891dfdd2320b39') in 0.142126 seconds 
+  Time since last request: 0.597563 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000000.png
+  artifactKey: Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000000.png using Guid(9ab7ab49c9f16444388e8e66a2827773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a08b02e600fc634d97c5cf00d5278e') in 0.013377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.267334 seconds.
-  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
-  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d08d9befaaa6d842fd62afd40a6be82') in 0.021855 seconds 
+  Time since last request: 0.852710 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000002.png
+  artifactKey: Guid(da8016c16f102084f9d61e237806f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000002.png using Guid(da8016c16f102084f9d61e237806f451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacc349b3faaecb3df3b0f7bc9568226') in 0.014445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.557948 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b0c240e39edf69d1446dc22246a110') in 0.021149 seconds 
+  Time since last request: 0.793720 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000005.png
+  artifactKey: Guid(e7c1f8f6662e6054ab5b35b045fb3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000005.png using Guid(e7c1f8f6662e6054ab5b35b045fb3056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f3fba4e9202822de31b35f1ddb7592') in 0.014688 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.447988 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e556b9350f68cdbdd5069ae9f075dee0') in 0.017335 seconds 
+  Time since last request: 77.414381 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000004.png
+  artifactKey: Guid(6c3208acf07f3124698ee22df010a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000004.png using Guid(6c3208acf07f3124698ee22df010a014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01de8e92fb3b7900462dba25ef3b227a') in 0.013877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.115658 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b50892ee0d0339c4db6387eb3bd8eb') in 0.016654 seconds 
+  Time since last request: 0.369145 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000006.png
+  artifactKey: Guid(cf3c42fac758de0408f43dfa51caea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000006.png using Guid(cf3c42fac758de0408f43dfa51caea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9ea1c8787318c4c1d6153ace6876b') in 0.014411 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.582135 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa18b4ac9cb7fe96d7bb71d74e6edf53') in 0.016631 seconds 
+  Time since last request: 0.183414 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000007.png
+  artifactKey: Guid(0989150ac44a0944d937ab07668d27a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000007.png using Guid(0989150ac44a0944d937ab07668d27a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7735ede54017cebecda4c9173b8c5a') in 0.010830 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.230933 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000510.PNG
-  artifactKey: Guid(01af2c0bb05884a4bbecc2387956f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000510.PNG using Guid(01af2c0bb05884a4bbecc2387956f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277e68455a96e7c95b65caddca467048') in 0.018640 seconds 
+  Time since last request: 0.205651 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000008.png
+  artifactKey: Guid(3540aa92e563da743beaaffba6e10ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000008.png using Guid(3540aa92e563da743beaaffba6e10ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8524288059455f138a2f535e8fbd498') in 0.011015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.987293 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75aade7f7b7cdbb34051e96023380c6') in 0.017067 seconds 
+  Time since last request: 0.269663 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000009.png
+  artifactKey: Guid(702f0c25f17d5324c92209b453090789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000009.png using Guid(702f0c25f17d5324c92209b453090789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c5a03893394f0156abb54541a35384') in 0.011806 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.499896 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b44e45b20bff3afaadc404cfa8d799') in 0.016021 seconds 
+  Time since last request: 0.236824 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000496.png
+  artifactKey: Guid(876264cc70430c948a1614635486c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000496.png using Guid(876264cc70430c948a1614635486c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e64ffb171adb1be828766a8134d031e') in 0.013365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.805851 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa432efdbc81e00c51898fc3080a8445') in 0.020974 seconds 
+  Time since last request: 111.331020 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000503.png
+  artifactKey: Guid(dcdca96aac0ef3f41b675fa5dbecef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000503.png using Guid(dcdca96aac0ef3f41b675fa5dbecef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1343e8d392ac2a3d5a4c5c83fae30b4') in 0.015659 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.765044 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82faeb7dce80aac528b64fd27313f5c2') in 0.022014 seconds 
+  Time since last request: 20.778683 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000500.png
+  artifactKey: Guid(059c035ca047272408fd76a141bf7199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000500.png using Guid(059c035ca047272408fd76a141bf7199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2a76bf6774700f72f870df05a84b15') in 0.014203 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.249620 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/00000511.PNG
-  artifactKey: Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/00000511.PNG using Guid(9632935a3b6993e428f18bf186cc49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bba1f97ca21f413c7d4e15680cebf1') in 0.022651 seconds 
+  Time since last request: 7.892445 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000499.png
+  artifactKey: Guid(20f7832cffde00a41bfe5efa9c827a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000499.png using Guid(20f7832cffde00a41bfe5efa9c827a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b946174b3e785a07e7bf54e0b1fda329') in 0.013076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.099148 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000004.PNG
-  artifactKey: Guid(51344d993778f274ba7d5551a827b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000004.PNG using Guid(51344d993778f274ba7d5551a827b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc33e69a2f7cdd22547d99faefcf0a9') in 0.013240 seconds 
+  Time since last request: 0.585484 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000498.png
+  artifactKey: Guid(04dccf48336717347a6cfe42353db25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000498.png using Guid(04dccf48336717347a6cfe42353db25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2e313992977e502e1e53ef65dea83b') in 0.013894 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.331588 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG
-  artifactKey: Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG using Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3213cb3dd1b896790f778b79080aa486') in 0.012389 seconds 
+  Time since last request: 0.812590 seconds.
+  path: Assets/Sprites/TurretSprites/Rosa/00000487.PNG
+  artifactKey: Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rosa/00000487.PNG using Guid(fc64b8c7472549a45bb218652f70b77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496f9205097aaaff405392b9848d6cd2') in 0.018832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 141.261609 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG
-  artifactKey: Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG using Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30679d23a0f8ea385599b3404365ddee') in 0.271657 seconds 
+  Time since last request: 10.871750 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000497.png
+  artifactKey: Guid(ed937ab846aabc64f91e8404d508d282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000497.png using Guid(ed937ab846aabc64f91e8404d508d282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed9981540f67a173b19f4c1b645843a') in 0.014859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.407670 seconds.
-  path: Assets/Anims/Zombi/Zombie.controller
-  artifactKey: Guid(1208c83b69808cb47a298396d2c5b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Zombi/Zombie.controller using Guid(1208c83b69808cb47a298396d2c5b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28907073005a986b524b036975a87c1c') in 0.011704 seconds 
+  Time since last request: 19.786066 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000504.png
+  artifactKey: Guid(8b39497b7d91f1e4eb2385ca7b4b56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000504.png using Guid(8b39497b7d91f1e4eb2385ca7b4b56fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4766b82f577e93cc0b6db6c0ed45808') in 0.013204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.573018 seconds.
+  Time since last request: 0.326070 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000505.png
+  artifactKey: Guid(9f2e1c46a7847a044a47f8ac6c986c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000505.png using Guid(9f2e1c46a7847a044a47f8ac6c986c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e4d92a3b22ada3483cf11fc19894cf') in 0.013901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263435 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000506.png
+  artifactKey: Guid(eae529fd1c6a88749ad50c2ea0d62076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000506.png using Guid(eae529fd1c6a88749ad50c2ea0d62076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817a1fb62efe39deb0a46cbb7c13fcd2') in 0.013281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261062 seconds.
+  path: Assets/Sprites/TurretSprites/Shannon/00000507.png
+  artifactKey: Guid(14c2bd49404a35c41b2927a76b8ee395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Shannon/00000507.png using Guid(14c2bd49404a35c41b2927a76b8ee395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97673b31419924e7d1ada1942f2284f0') in 0.015943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 455.869423 seconds.
   path: Assets/Anims/Turrets/Battler.controller
   artifactKey: Guid(f94ff1d3135b0874cb5699af0932e05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Turrets/Battler.controller using Guid(f94ff1d3135b0874cb5699af0932e05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806d5c7555479db47851e8e36e669aa6') in 0.002671 seconds 
+Start importing Assets/Anims/Turrets/Battler.controller using Guid(f94ff1d3135b0874cb5699af0932e05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87d0e27343b54ea5cbfacd4d702ccb') in 0.006179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.823374 seconds.
-  path: Assets/Anims/Turrets/BwattlerSwaaaaaan.anim
-  artifactKey: Guid(7da6ceff583687b4ebf551f08a472f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Anims/Turrets/BwattlerSwaaaaaan.anim using Guid(7da6ceff583687b4ebf551f08a472f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223d0c4d52cf92486acfd1c209dba885') in 0.017104 seconds 
+  Time since last request: 2.981782 seconds.
+  path: Assets/Anims/Turrets/Rosa.controller
+  artifactKey: Guid(d6bc8ec82281e01419d9c1be985b2a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Turrets/Rosa.controller using Guid(d6bc8ec82281e01419d9c1be985b2a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be913fed26b519edef6052e91f2f4c19') in 0.003064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.910739 seconds.
-  path: Assets/Scripts/Turret.cs
-  artifactKey: Guid(7c52fe9c7d543024593d635f1b893e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Turret.cs using Guid(7c52fe9c7d543024593d635f1b893e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0090dc0c698ebe9f8d3faac0ad0c792a') in 0.002440 seconds 
+  Time since last request: 15.509572 seconds.
+  path: Assets/Anims/Turrets/Shannon.controller
+  artifactKey: Guid(236be8569890fbd4aba7324923cdb2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Turrets/Shannon.controller using Guid(236be8569890fbd4aba7324923cdb2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd747094031b443efe71de3225bf01d36') in 0.002974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.267097 seconds.
+  path: Assets/Prefabs/Projectiles/Flame Blue !.prefab
+  artifactKey: Guid(aaae1a46f3eb81742980b307cee8d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Flame Blue !.prefab using Guid(aaae1a46f3eb81742980b307cee8d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64274509c2b631939b5d0ebab595f139') in 0.020953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.878369 seconds.
+  path: Assets/Prefabs/Projectiles/Flame !.prefab
+  artifactKey: Guid(7d4ac6d9b09d38044b08459468d75d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Flame !.prefab using Guid(7d4ac6d9b09d38044b08459468d75d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf019d459d7ba8dee53172aba33d8c7') in 0.010375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.600138 seconds.
+  path: Assets/Prefabs/Projectiles/Arrow.prefab
+  artifactKey: Guid(9f1fa36833003d64d97b1e16d211bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectiles/Arrow.prefab using Guid(9f1fa36833003d64d97b1e16d211bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f9bc6fece73d8ec3e8f71e6daf53ad') in 0.023493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.835650 seconds.
+  path: Assets/Anims/Turrets/Shannon.controller
+  artifactKey: Guid(236be8569890fbd4aba7324923cdb2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Turrets/Shannon.controller using Guid(236be8569890fbd4aba7324923cdb2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51da4aa43999834a85f29c76b5dd873a') in 0.003101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.381609 seconds.
+  path: Assets/Sprites/Projectiles/WhiteMagic.png
+  artifactKey: Guid(1052690c3bbf06b4a9dea037cc194c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Projectiles/WhiteMagic.png using Guid(1052690c3bbf06b4a9dea037cc194c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3ab293ab9a0e90baa556a0d4da3dd0') in 0.020081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.833837 seconds.
+  path: Assets/Sprites/Projectiles/FireBlue.png
+  artifactKey: Guid(ab74d76a437c8574a9859abbab6133f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Projectiles/FireBlue.png using Guid(ab74d76a437c8574a9859abbab6133f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b216fd3af49b5e1ef83d580b35f022c') in 0.011220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.404324 seconds.
+  path: Assets/Sprites/Projectiles/FireBall.png
+  artifactKey: Guid(fad5c1635cd52d14ebf743deb2e6ec21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Projectiles/FireBall.png using Guid(fad5c1635cd52d14ebf743deb2e6ec21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275be161e57bed4231a5213aab80cdad') in 0.011043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379530 seconds.
+  path: Assets/Sprites/Projectiles/DarkMagic.png
+  artifactKey: Guid(c941d085a6653914bb4c5def95ec6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Projectiles/DarkMagic.png using Guid(c941d085a6653914bb4c5def95ec6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ada98f0e2be265a975c29aabbbfb37b') in 0.011588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.336754 seconds.
+  path: Assets/Sprites/Projectiles/Arrow.png
+  artifactKey: Guid(38ba18692c515e24f9dc4bb8ea88d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Projectiles/Arrow.png using Guid(38ba18692c515e24f9dc4bb8ea88d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9060c7a260a8781048c148697e96662d') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.936506 seconds.
+  path: Assets/Prefabs/Turrets/Shannon.prefab
+  artifactKey: Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Shannon.prefab using Guid(a06c08b3be562a947abc9718f1036951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915c428b5a3ff62c62d8444332a8bba2') in 0.022633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587737 seconds.
+  path: Assets/Prefabs/Turrets/Rosa.prefab
+  artifactKey: Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Rosa.prefab using Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9a7ce532f30ae2de1cadc51d7f842') in 0.011926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.244606 seconds.
+  path: Assets/Sprites/Units/Towers/SageSTand.png
+  artifactKey: Guid(c01e2cd7375fa09449fbbdcd133c7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Units/Towers/SageSTand.png using Guid(c01e2cd7375fa09449fbbdcd133c7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd76c25c41097996c56120209bb25152') in 0.033227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.759444 seconds.
+  path: Assets/Prefabs/Turrets/TurretSpawn.prefab
+  artifactKey: Guid(b05f23edd2281a848809747d4ea99039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/TurretSpawn.prefab using Guid(b05f23edd2281a848809747d4ea99039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278c7aea05e9275f358b53f4d8e74c43') in 0.005389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.814858 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/1.png
+  artifactKey: Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/1.png using Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ac1c87b39cbe29a65d6931bb07990') in 0.014886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582325 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/4.png
+  artifactKey: Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/4.png using Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd587330433c0257b33449ba4230e1c') in 0.016182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.847710 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/4.png
+  artifactKey: Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/4.png using Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301cb8fd74d33637622a96e07e6c013c') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.215951 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/4.png
+  artifactKey: Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/4.png using Guid(e9168c49fe299e74ca9f00d1f028dde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d6c0da88d1aeafe51de6870be2be06') in 0.022195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919523 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/1.png
+  artifactKey: Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/1.png using Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f226f7c0e6ece1007208ea97705539f2') in 0.029066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.885828 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/2.png
+  artifactKey: Guid(a9addb05c3ea8284e9a8f384636648bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/2.png using Guid(a9addb05c3ea8284e9a8f384636648bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6c0709e33b9e76f15e9917666197ac') in 0.015011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.409968 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/3.png
+  artifactKey: Guid(536c52be1d954ca45a731970e18c05d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/3.png using Guid(536c52be1d954ca45a731970e18c05d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc66ef6ee9f8538afd867c4b1542dee') in 0.014249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003483 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/5.png
+  artifactKey: Guid(b0c68033d50706c449a354407a2d75eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/5.png using Guid(b0c68033d50706c449a354407a2d75eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f440baa73012b020da4234effebf54b') in 0.014651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.470231 seconds.
+  path: Assets/Sprites/TurretSprites/Joji(claus)/6.png
+  artifactKey: Guid(30a1346528c5281499d756c07279cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Joji(claus)/6.png using Guid(30a1346528c5281499d756c07279cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfb5c9951b4eb42f1fc179c48fc85e7') in 0.015138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1689.211740 seconds.
+  path: Assets/Prefabs/Turrets/Krauss.prefab
+  artifactKey: Guid(737c22480127d2245b8871fd18867ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Krauss.prefab using Guid(737c22480127d2245b8871fd18867ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bd078807c62a65b941bda323da1dc7') in 0.014021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.842145 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000000.png
+  artifactKey: Guid(81d2a6899fe411e4b98eaa6d9834f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000000.png using Guid(81d2a6899fe411e4b98eaa6d9834f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dca220ecb031a4cb312c26396dab2fc') in 0.014475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.361607 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000266.png
+  artifactKey: Guid(062b3a35b8c7f644cbf8ac101938be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000266.png using Guid(062b3a35b8c7f644cbf8ac101938be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40405c2e2bd705e21145d8244250e768') in 0.017406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.447049 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000266.png
+  artifactKey: Guid(062b3a35b8c7f644cbf8ac101938be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000266.png using Guid(062b3a35b8c7f644cbf8ac101938be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d1e4ea8e004558d29ec124a68268f') in 0.012887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.691875 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000003.png
+  artifactKey: Guid(7beff3f034480a5409e6bab73c7a1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000003.png using Guid(7beff3f034480a5409e6bab73c7a1ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20106b397996ff1aeab5ca59b163e74') in 0.018710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.868150 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000004.png
+  artifactKey: Guid(4cf579c4f44b7884298277604f0ade37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000004.png using Guid(4cf579c4f44b7884298277604f0ade37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f357a9a2e263f7814556e8c1176baa48') in 0.014306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305133 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000005.png
+  artifactKey: Guid(31bd2d6b8a8713342ba040328ba275af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000005.png using Guid(31bd2d6b8a8713342ba040328ba275af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff37d08cd1889ff6b955abe6362dbd7a') in 0.013913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263939 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000006.png
+  artifactKey: Guid(094ac3b0358e3ef498709eb9c9c66878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000006.png using Guid(094ac3b0358e3ef498709eb9c9c66878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85010129976c834b763b7ab13b3b418') in 0.015297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163673 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000007.png
+  artifactKey: Guid(e84804526403ddc4f80d2733c6458849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000007.png using Guid(e84804526403ddc4f80d2733c6458849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb46b553d553326841322175703e4031') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173599 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000008.png
+  artifactKey: Guid(5d7da29cd95307b47b77585d688d7fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000008.png using Guid(5d7da29cd95307b47b77585d688d7fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa4a93421ccf3d020702b3e553a0093') in 0.013864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168543 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000009.png
+  artifactKey: Guid(2caa1732a87057d4a8ff28739059951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000009.png using Guid(2caa1732a87057d4a8ff28739059951f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cccf4fd12e3f23e7be807ff102ace11') in 0.011747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162833 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000010.png
+  artifactKey: Guid(2345e58ed79144f4f819fc7bd6197171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000010.png using Guid(2345e58ed79144f4f819fc7bd6197171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823baa5138bbbcee0fa5e7d07b317dcb') in 0.023065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370553 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000267.png
+  artifactKey: Guid(e97cf267c8efc864bbc01f3f0d297ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000267.png using Guid(e97cf267c8efc864bbc01f3f0d297ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc087a02ab11f8a5f84b6a8c5738f04') in 0.015289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.070320 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000000.png
+  artifactKey: Guid(81d2a6899fe411e4b98eaa6d9834f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000000.png using Guid(81d2a6899fe411e4b98eaa6d9834f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88980262736a7b936ef9c4361be2de79') in 0.011926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.291707 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000268.png
+  artifactKey: Guid(26ec789f08a9e574bbb8ccfffdaee604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000268.png using Guid(26ec789f08a9e574bbb8ccfffdaee604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a13da1041be12f8652f775a3866953b') in 0.026527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.462105 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000269.png
+  artifactKey: Guid(048594f85892a7e4f8ac0b2007081cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000269.png using Guid(048594f85892a7e4f8ac0b2007081cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9622372192549fb86fad651efbcd86') in 0.015628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358158 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000270.png
+  artifactKey: Guid(8fd3321f082dd8546bd78323644a99fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000270.png using Guid(8fd3321f082dd8546bd78323644a99fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fe0540d9bb0fa84fb32af50bf6bf5a') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370646 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000271.png
+  artifactKey: Guid(3019ee558fedf89409f9bb02bc429d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000271.png using Guid(3019ee558fedf89409f9bb02bc429d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32fc5af7280571fbf0b29edd72229b') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376817 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000272.png
+  artifactKey: Guid(1cb09e4bd3d642a4abe30a4b97052f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000272.png using Guid(1cb09e4bd3d642a4abe30a4b97052f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3568f97986cbec89dec2b05e80a9b11') in 0.025448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295970 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000273.png
+  artifactKey: Guid(de70b907785b9ee47a7444fec30bff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000273.png using Guid(de70b907785b9ee47a7444fec30bff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8c98a6ae345bc5680d83be0c1c14df') in 0.014924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304311 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000274.png
+  artifactKey: Guid(ba190e50d68db8a4099cc2a6397224a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000274.png using Guid(ba190e50d68db8a4099cc2a6397224a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fe65dbdeebd26032dbf404b454e232') in 0.016481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936472 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000275.png
+  artifactKey: Guid(983df759f15edd6449c107e4861bcb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000275.png using Guid(983df759f15edd6449c107e4861bcb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f084e2697d6e6bff4d2782ad951a56b9') in 0.013790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.306967 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000276.png
+  artifactKey: Guid(6fbecfb001860b5498d9a71db135eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000276.png using Guid(6fbecfb001860b5498d9a71db135eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefdaf59ee3ec9bd6ab222c79ccc9f64') in 0.013356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248209 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000277.png
+  artifactKey: Guid(5232e1cd1b2f9984b80cb12d8e2e72cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000277.png using Guid(5232e1cd1b2f9984b80cb12d8e2e72cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42395f6d8615d1b54997300f244844cf') in 0.015535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266021 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000278.png
+  artifactKey: Guid(b22f4a9055b96b04f86ae55a2e43c928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000278.png using Guid(b22f4a9055b96b04f86ae55a2e43c928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c795c07e6382e73d4b61fc9e9b9195') in 0.026050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221015 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000279.png
+  artifactKey: Guid(6fbe39c07ddbeda4381408fb8297453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000279.png using Guid(6fbe39c07ddbeda4381408fb8297453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ada4484d63cfcad424605e575758365') in 0.014768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206976 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000280.png
+  artifactKey: Guid(444f9c1c34d1c8b4bafd1172541491a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000280.png using Guid(444f9c1c34d1c8b4bafd1172541491a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918e98ae914736423362a87d1470d412') in 0.013621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257600 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000281.png
+  artifactKey: Guid(096c1930019964c439ecb0206f787f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000281.png using Guid(096c1930019964c439ecb0206f787f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7741e41955a7de08f73ad3adb1b3d8d') in 0.014577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.199611 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000282.png
+  artifactKey: Guid(5c17589ae9ce6fe4f81c62636f0d01e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000282.png using Guid(5c17589ae9ce6fe4f81c62636f0d01e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047e2336c7e41678846b89e9f5b224b6') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262572 seconds.
+  path: Assets/Sprites/TurretSprites/Kannon/00000283.png
+  artifactKey: Guid(d4c9a47211e777f49ad38bd66ca1205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Kannon/00000283.png using Guid(d4c9a47211e777f49ad38bd66ca1205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e69789011984cc705992bf311704a18') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1669.045879 seconds.
+  path: Assets/Anims/Turrets/Krauss.controller
+  artifactKey: Guid(996a92f674b82f94d9aed405aaafa094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/Turrets/Krauss.controller using Guid(996a92f674b82f94d9aed405aaafa094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bcc98e13cd722b1df44289397db5a5') in 0.002951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.603434 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000559.PNG
+  artifactKey: Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000559.PNG using Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a8cc2fef9416dcdb38186da394256b') in 0.029890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.749501 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000563.PNG
+  artifactKey: Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000563.PNG using Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87665fa54784e77577cbc9bc7c532926') in 0.019396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.223737 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000563.PNG
+  artifactKey: Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000563.PNG using Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c532d1d07b11d85c2e09118d9c2e4f') in 0.019644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.156770 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000559.PNG
+  artifactKey: Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000559.PNG using Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b564ed99587b3d8f01af111ca731d1') in 0.036127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.936079 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000560.PNG
+  artifactKey: Guid(f70ed451889608e40a9e9ad3b981e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000560.PNG using Guid(f70ed451889608e40a9e9ad3b981e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f23910e25a3cfbcbf77b32666f0b4b') in 0.030392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.414262 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000561.PNG
+  artifactKey: Guid(35eab58147a29b04986f45d7bdd149c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000561.PNG using Guid(35eab58147a29b04986f45d7bdd149c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e48e0a1394a208726858dcd5180405') in 0.030644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.333550 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000562.PNG
+  artifactKey: Guid(60d6724e9aa05404886333c1c3fcc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000562.PNG using Guid(60d6724e9aa05404886333c1c3fcc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46367481928bc27d309cd2f7734b39c1') in 0.030421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.519784 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000564.PNG
+  artifactKey: Guid(e9a232de17cbe0c479eff785889a5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000564.PNG using Guid(e9a232de17cbe0c479eff785889a5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8304ad0d5a4d8a4f5d1424c569b81b76') in 0.018859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.250041 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000565.PNG
+  artifactKey: Guid(2fd9678059171c145a0a387322ff38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000565.PNG using Guid(2fd9678059171c145a0a387322ff38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb872dc835c9aa5c3af6c9de558e9edd') in 0.029785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.279209 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000566.PNG
+  artifactKey: Guid(2d3c6eb7794399e49a55d50aede20d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000566.PNG using Guid(2d3c6eb7794399e49a55d50aede20d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ccb6e3f4837668b64cb5c159919cb2') in 0.020043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214964 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000567.PNG
+  artifactKey: Guid(bbdfa992bcc504b47bc7c106af6f91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000567.PNG using Guid(bbdfa992bcc504b47bc7c106af6f91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0db4251cd807b8191722150ab552339') in 0.019488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.270747 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000568.PNG
+  artifactKey: Guid(d6bb8dd1cad58264aa94fd50cc0142e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000568.PNG using Guid(d6bb8dd1cad58264aa94fd50cc0142e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320a3a653bdc5fc3a7c12470aef5b70') in 0.019903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.398555 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000559.PNG
+  artifactKey: Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000559.PNG using Guid(14066cabbeaa29344938560e7a1c3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b07e6293d9dafc345bf984e3747d1d1') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.296180 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000560.PNG
+  artifactKey: Guid(f70ed451889608e40a9e9ad3b981e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000560.PNG using Guid(f70ed451889608e40a9e9ad3b981e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b309a60ac752c11575419125dd4eadbb') in 0.022910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.565084 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000561.PNG
+  artifactKey: Guid(35eab58147a29b04986f45d7bdd149c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000561.PNG using Guid(35eab58147a29b04986f45d7bdd149c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0174fa5df4ff4c0b1a55f501371854') in 0.027778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.391217 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000562.PNG
+  artifactKey: Guid(60d6724e9aa05404886333c1c3fcc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000562.PNG using Guid(60d6724e9aa05404886333c1c3fcc2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b15b0688ca0b4809c2236c3cd61e4b9') in 0.021346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.410059 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000563.PNG
+  artifactKey: Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000563.PNG using Guid(a210e2de4304af04fb82fc2c795980d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f7a6537e173adad44d8cf63df65f85') in 0.021091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.941785 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000564.PNG
+  artifactKey: Guid(e9a232de17cbe0c479eff785889a5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000564.PNG using Guid(e9a232de17cbe0c479eff785889a5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d75008acc54a772c88a5d40642ef86') in 0.019688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.352163 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000565.PNG
+  artifactKey: Guid(2fd9678059171c145a0a387322ff38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000565.PNG using Guid(2fd9678059171c145a0a387322ff38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54203c994dcf50d188e763cb34dfbbd3') in 0.021345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.069235 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000566.PNG
+  artifactKey: Guid(2d3c6eb7794399e49a55d50aede20d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000566.PNG using Guid(2d3c6eb7794399e49a55d50aede20d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834fe2f0acf4a8359b9558bb39468f03') in 0.021582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.989593 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000567.PNG
+  artifactKey: Guid(bbdfa992bcc504b47bc7c106af6f91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000567.PNG using Guid(bbdfa992bcc504b47bc7c106af6f91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f787329e5ecc68ffa76b13092c995f1f') in 0.017364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.184487 seconds.
+  path: Assets/Sprites/TurretSprites/Rudolf/00000568.PNG
+  artifactKey: Guid(d6bb8dd1cad58264aa94fd50cc0142e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/TurretSprites/Rudolf/00000568.PNG using Guid(d6bb8dd1cad58264aa94fd50cc0142e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef1cd73648dc48bd2e83a1393177d35') in 0.016756 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003782 seconds.
+Registered in 0.004052 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.197 seconds
+- Completed reload, in  1.303 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1198ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (250ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (91ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-				TypeCache.Initialize (293ms)
-					TypeCache.ScanAssembly (285ms)
+			SetupTypeCache (319ms)
+				TypeCache.Initialize (314ms)
+					TypeCache.ScanAssembly (304ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4318 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (25.4 KB). Loaded Objects now: 4931.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 6.108200 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.604900 ms MarkObjects: 4.830300 ms  DeleteObjects: 0.093700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004380 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+				TypeCache.Initialize (270ms)
+					TypeCache.ScanAssembly (263ms)
 				ResolveRequiredComponents (5ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (387ms)
+			SetupLoadedEditorAssemblies (378ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (240ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (230ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4318 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (25.4 KB). Loaded Objects now: 4866.
+Unloading 4319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (32.6 KB). Loaded Objects now: 4934.
 Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 7.013600 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.424900 ms MarkObjects: 6.125600 ms  DeleteObjects: 0.066400 ms)
+Total: 3.869000 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.330900 ms MarkObjects: 2.968900 ms  DeleteObjects: 0.158900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006160 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image T:\projets\GoldenDefense\gorudentawadifensu\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+				TypeCache.Initialize (253ms)
+					TypeCache.ScanAssembly (247ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (32.6 KB). Loaded Objects now: 4937.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.342200 ms (FindLiveObjects: 0.386200 ms CreateObjectMapping: 0.319400 ms MarkObjects: 2.599500 ms  DeleteObjects: 0.035800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -768,67 +1286,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 242.599900 seconds.
-  path: Assets/Scripts/EnemySpawner.cs
-  artifactKey: Guid(a756b6a8815ee6c46896f891b04d720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemySpawner.cs using Guid(a756b6a8815ee6c46896f891b04d720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf434505dab3428f8e67f78bc16b2d3') in 0.002389 seconds 
+  Time since last request: 583.201076 seconds.
+  path: Assets/SOUNDS/Witch in gold (cembalo).wav
+  artifactKey: Guid(d155941339086f44a9f8a8a78e5e32ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS/Witch in gold (cembalo).wav using Guid(d155941339086f44a9f8a8a78e5e32ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4746a7cca2706688a6d67702ac1b988d') in 0.084303 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.698507 seconds.
-  path: Assets/Sprites/Units/Towers/SageSTand.png
-  artifactKey: Guid(c01e2cd7375fa09449fbbdcd133c7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Units/Towers/SageSTand.png using Guid(c01e2cd7375fa09449fbbdcd133c7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd76c25c41097996c56120209bb25152') in 0.064202 seconds 
+  Time since last request: 0.597849 seconds.
+  path: Assets/SOUNDS/that_one_umineko_sound_effect.wav
+  artifactKey: Guid(7d55fb345ded5b847baa18ef63bba567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS/that_one_umineko_sound_effect.wav using Guid(7d55fb345ded5b847baa18ef63bba567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991d4394057c93764b3a641b889f5697') in 0.007875 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053274 seconds.
-  path: Assets/Prefabs/Turrets/Battler.prefab
-  artifactKey: Guid(841d14b8f7a653945891b300fbd7e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Battler.prefab using Guid(841d14b8f7a653945891b300fbd7e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45943141c02318d525b3bb01fb7961b') in 0.072314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.724319 seconds.
-  path: Assets/Prefabs/Projectiles/Arrow.prefab
-  artifactKey: Guid(9f1fa36833003d64d97b1e16d211bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Projectiles/Arrow.prefab using Guid(9f1fa36833003d64d97b1e16d211bfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c92af64ca2f0f8f4eb3971aab7abdd') in 0.010464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.578763 seconds.
-  path: Assets/Sprites/Projectiles/Arrow.png
-  artifactKey: Guid(38ba18692c515e24f9dc4bb8ea88d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Projectiles/Arrow.png using Guid(38ba18692c515e24f9dc4bb8ea88d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9060c7a260a8781048c148697e96662d') in 0.022620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.577617 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG
-  artifactKey: Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG using Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2576ea1b56c0db63bad5dd6bd3334cb8') in 0.167016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.738441 seconds.
-  path: Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG
-  artifactKey: Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Battler/Effe/00000008.PNG using Guid(2dd491f57e6c8d246b9f395d89467438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bee2746355e2cb3e93a845cac2f600') in 0.162830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 293.160849 seconds.
-  path: Assets/Sprites/Projectiles/DarkMagic.png
-  artifactKey: Guid(c941d085a6653914bb4c5def95ec6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Projectiles/DarkMagic.png using Guid(c941d085a6653914bb4c5def95ec6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ada98f0e2be265a975c29aabbbfb37b') in 0.011314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.281467 seconds.
-  path: Assets/Prefabs/Turrets/Rosa.prefab
-  artifactKey: Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Turrets/Rosa.prefab using Guid(9c10750501020b34d93b6b9098202756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977f5771403bd2b19e2e6cdc9ac33808') in 0.013904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.629880 seconds.
-  path: Assets/Sprites/TurretSprites/Joji(claus)/1.png
-  artifactKey: Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Joji(claus)/1.png using Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e599778b55239861470600daf6da93') in 0.016925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1278.778000 seconds.
-  path: Assets/Sprites/TurretSprites/Joji(claus)/1.png
-  artifactKey: Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TurretSprites/Joji(claus)/1.png using Guid(962a410b5b05c504784c08908f3d0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ac1c87b39cbe29a65d6931bb07990') in 0.016448 seconds 
+  Time since last request: 0.680904 seconds.
+  path: Assets/SOUNDS/Activepain.mp3
+  artifactKey: Guid(0aff3694eb645ce49ad795e13eb4401b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS/Activepain.mp3 using Guid(0aff3694eb645ce49ad795e13eb4401b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec31cfe543035663b0da576f4fc0edd') in 0.010418 seconds 

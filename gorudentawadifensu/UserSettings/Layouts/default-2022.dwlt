@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 316
     height: 601
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -171,15 +171,15 @@ MonoBehaviour:
     y: 0
     width: 1226
     height: 338
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
   - {fileID: 15}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,7 +394,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 26768
+  m_LastSelectedObjectID: 47288
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,7 +417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1049
+    width: 1224
     height: 580
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -430,15 +430,18 @@ MonoBehaviour:
     - {fileID: -8827920003381383149, guid: d6bc8ec82281e01419d9c1be985b2a5d, type: 2}
     - {fileID: 5430336888294557243, guid: 236be8569890fbd4aba7324923cdb2b4, type: 2}
     - {fileID: 5940626987826883045, guid: 996a92f674b82f94d9aed405aaafa094, type: 2}
+    - {fileID: -8186654775819292232, guid: 6308169a03308654bae7206c75ce9c6b, type: 2}
+    - {fileID: 3826778766752678678, guid: 270da00cc8c9af547bced9d90d718e30, type: 2}
+    - {fileID: -7040305902894444820, guid: 69d9930cededb4942aba440ce2aea2c5, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.8498996
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -38.99832
+      e03: 20.5
       e10: 0
-      e11: 0.8498996
+      e11: 1
       e12: 0
-      e13: 130.82774
+      e13: 195.5
       e20: 0
       e21: 0
       e22: 1
@@ -511,10 +514,58 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.88526314
+      e01: 0
+      e02: 0
+      e03: -29.263153
+      e10: 0
+      e11: 0.88526314
+      e12: 0
+      e13: 195.25262
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.88526314
+      e01: 0
+      e02: 0
+      e03: -29.263153
+      e10: 0
+      e11: 0.88526314
+      e12: 0
+      e13: 195.25262
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.88526314
+      e01: 0
+      e02: 0
+      e03: -29.263153
+      e10: 0
+      e11: 0.88526314
+      e12: 0
+      e13: 195.25262
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 996a92f674b82f94d9aed405aaafa094, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 69d9930cededb4942aba440ce2aea2c5, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 5940626987826883045, guid: 996a92f674b82f94d9aed405aaafa094, type: 2}
+  - m_Target: {fileID: -7040305902894444820, guid: 69d9930cededb4942aba440ce2aea2c5, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -568,36 +619,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SOUNDS
+    - Assets/Sprites/TurretSprites/Ennemi
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/SOUNDS
+  - Assets/Sprites/TurretSprites/Ennemi
   m_LastFoldersGridSize: 16
   m_LastProjectPath: T:\projets\GoldenDefense\gorudentawadifensu
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 251}
-    m_SelectedIDs: 8eb60000
-    m_LastClickedID: 46734
-    m_ExpandedIDs: 0000000056b6000058b600005ab600005cb600005eb6000060b6000062b60000
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: 5cb40000
+    m_LastClickedID: 46172
+    m_ExpandedIDs: 000000000cb400000eb4000010b4000014b4000016b4000018b40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Projectiles
+      m_OriginalName: Projectiles
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 46146
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -611,7 +662,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056b6000058b600005ab600005cb600005eb6000060b6000062b6000064b60000
+    m_ExpandedIDs: 000000000cb400000eb4000010b4000012b4000014b4000016b4000018b40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,18 +690,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000086660000e8c300000000000088b20000a2e3ffff82f10000a4dd0000c0dd00008eef000036ef00005ce60000e8e6000094f30000a6ee000032660000
+    m_ExpandedInstanceIDs: c623000086660000e8c300000000000088b20000a2e3ffff82f10000a4dd0000c0dd00008eef000036ef00005ce60000e8e6000094f30000a6ee000032660000d46500007ab8000082b8000086b8000072b800008ab8000076b800007eb80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Witch in gold (cembalo)
-      m_OriginalName: Witch in gold (cembalo)
+      m_Name: DracoZombi
+      m_OriginalName: DracoZombi
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 26808
+      m_UserData: 46248
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -741,7 +792,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42f8ffff86680000
+      m_ExpandedIDs: 56f8ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1056,9 +1107,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.069760874, y: -1.5354686, z: -15.972077}
+    m_Target: {x: -1.362763, y: 0.20400473, z: -16.05394}
     speed: 2
-    m_Value: {x: -0.069760874, y: -1.5354686, z: -15.972077}
+    m_Value: {x: -1.362763, y: 0.20400473, z: -16.05394}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1108,9 +1159,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.817844
+    m_Target: 10.677954
     speed: 2
-    m_Value: 9.817844
+    m_Value: 10.677954
   m_Ortho:
     m_Target: 1
     speed: 2
