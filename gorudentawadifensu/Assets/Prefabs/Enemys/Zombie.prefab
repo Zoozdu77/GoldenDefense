@@ -139,6 +139,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: dbc91acd0035c784587a224112426840, type: 2}
   LifeBar: {fileID: 7338800791290669305}
   Anim: {fileID: 5463396139415930525}
+  sprite: {fileID: 6280405395827380241}
   checkPoints: []
 --- !u!58 &3916799347458141578
 CircleCollider2D:

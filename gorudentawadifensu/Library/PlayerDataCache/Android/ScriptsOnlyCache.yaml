@@ -51,8 +51,11 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -205,37 +208,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 1854}
     - Class: 114
-      Script: {instanceID: 2156}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2768}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2928}
+      Script: {instanceID: 2900}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3284}
+      Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 6354}
+      Script: {instanceID: 6326}
     - Class: 114
-      Script: {instanceID: 7164}
+      Script: {instanceID: 7136}
     - Class: 114
-      Script: {instanceID: 7840}
+      Script: {instanceID: 7812}
     - Class: 114
-      Script: {instanceID: 8654}
+      Script: {instanceID: 8626}
     - Class: 114
-      Script: {instanceID: 9072}
+      Script: {instanceID: 9044}
     - Class: 114
-      Script: {instanceID: 9612}
+      Script: {instanceID: 9584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -286,29 +289,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2462}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 4906}
+      Script: {instanceID: 4878}
     - Class: 114
-      Script: {instanceID: 5054}
+      Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6358}
     - Class: 114
-      Script: {instanceID: 7164}
+      Script: {instanceID: 7136}
     - Class: 114
-      Script: {instanceID: 7382}
+      Script: {instanceID: 7354}
     - Class: 114
-      Script: {instanceID: 7840}
+      Script: {instanceID: 7812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -580,7 +583,7 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
-      Hash: 3a83d4b164f50c175d64c2bdcd2eb35a
+      Hash: 5dafc0b36e0113489480097e77edc705
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy

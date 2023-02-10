@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+    const float scale = 0.5f;
+
     public GameObject attackType;
     public GameObject[] CanLevel;
     private List<GameObject> targets = new List<GameObject>();
@@ -89,10 +91,10 @@ public class Turret : MonoBehaviour
             {
                 if (closestTarget.transform.position.x > transform.position.x)
                 {
-                   sprite.flipX = true;
+                    transform.localScale = new Vector3(-scale, scale, 1);
                 } else
                 {
-                    sprite.flipX = false;
+                    transform.localScale = new Vector3(scale,  scale, 1);
                 }
                 Anim.SetTrigger("Attack !");
                 attackCooldown = attackSpeed;

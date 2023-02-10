@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 3921682617688042831}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1feded3a180ab4743809a3d91bb8939f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6308169a03308654bae7206c75ce9c6b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -139,6 +139,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: ad5df2f3c8781dc4db34bf92fb4e49f1, type: 2}
   LifeBar: {fileID: 8293792875467703805}
   Anim: {fileID: 5463396139415930525}
+  sprite: {fileID: 6280405395827380241}
   checkPoints: []
 --- !u!58 &-6347502169079451894
 CircleCollider2D:

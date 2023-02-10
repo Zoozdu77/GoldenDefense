@@ -15,7 +15,7 @@ public class GeneralVars : MonoBehaviour
     public Sprite Speedslow;
 
     public static bool OverlayIsActive = false;
-    public static int Money = 3000;
+    public static int Money = 15000;
     public static int score;
     public static int throneHealth = 3;
     public static int TimeSpeed = 1;

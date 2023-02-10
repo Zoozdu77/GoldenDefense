@@ -16,45 +16,48 @@ public class Bullet : MonoBehaviour
 
     public bool DestroyOnCollide;
     public bool gotTarget;
+    public bool SlowDown;
 
-    private void Start()
+    private void Update()
     {
         if (gotTarget)
         {
-        Vector2 targetPos = target.transform.position;
-        targetPos.x = targetPos.x - transform.position.x;
-        targetPos.y = targetPos.y - transform.position.y;
-        float angle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
-        sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+            Vector2 targetPos = target.transform.position;
+            targetPos.x = targetPos.x - transform.position.x;
+            targetPos.y = targetPos.y - transform.position.y;
+            float angle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
+            sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
         }
-    }
-
-    private void FixedUpdate()
-    {
-        if (target == null && gotTarget ||timeBeforeDestroy <= 0)
+        Debug.Log(gameObject.name) ;
+        if (target == null && gotTarget || timeBeforeDestroy <= 0)
         {
             Destroy(gameObject);
         }
-        timeBeforeDestroy -= Time.fixedDeltaTime;
-        cooldown -= Time.fixedDeltaTime;
+        timeBeforeDestroy -= Time.deltaTime;
+        cooldown -= Time.deltaTime;
         if (target != null)
         {
             Vector2 direction = target.transform.position - transform.position;
-            transform.Translate(direction.normalized * speed * Time.fixedDeltaTime);
+            transform.Translate(direction.normalized * speed * Time.deltaTime);
         }
     }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy") && cooldown <= 0)
         {
             if(DestroyOnCollide)
             {
-                collision.GetComponent<Enemy>().Damaged(Damage);
-                if (Boom != null)
+                if (SlowDown)
                 {
-                    GameObject BoomBoom = Instantiate(Boom, transform.position, Boom.transform.rotation, null);
-                    BoomBoom.GetComponent<Bullet>().Damage += Damage / 3;
+                    collision.GetComponent<Enemy>().SlowDown();
+                } else
+                {
+                    collision.GetComponent<Enemy>().Damaged(Damage);
+                    if (Boom != null)
+                    {
+                        GameObject BoomBoom = Instantiate(Boom, transform.position, Boom.transform.rotation, null);
+                        BoomBoom.GetComponent<Bullet>().Damage += Damage / 3;
+                    }
                 }
                 Destroy(gameObject);
             }

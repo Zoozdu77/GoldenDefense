@@ -10,9 +10,10 @@ public class Enemy : MonoBehaviour
 
     public Animator Anim;
 
-    private SpriteRenderer sprite;
+    public SpriteRenderer sprite;
 
     private float speed;
+    private float MaxSpeed;
     private float MaxLife;
     private float Life;
     private float Damage;
@@ -21,11 +22,11 @@ public class Enemy : MonoBehaviour
     public GameObject[] checkPoints;
     private GameObject target;
     private int targNum = 0;
+    private float SlowCooldown;
 
     void Start()
     {
         LoadEnemy();
-        sprite = gameObject.GetComponent<SpriteRenderer>();
         target = checkPoints[targNum];
     }
 
@@ -39,21 +40,20 @@ public class Enemy : MonoBehaviour
         {
             Die();
         }
-    }
 
-    private void FixedUpdate()
-    {
+
         Vector2 direction = target.transform.position - transform.position;
         Anim.SetFloat("MovementX", direction.x);
         Anim.SetFloat("MovementY", direction.y);
         if (direction.x < 0 && transform.localScale.x < 0)
         {
-            transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-        } else if (transform.localScale.x > 0 && direction.x >= 0)
-        {
-            transform.localScale = new Vector3 (-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
-        transform.Translate(direction.normalized * speed * Time.fixedDeltaTime);
+        else if (transform.localScale.x > 0 && direction.x >= 0)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+        transform.Translate(direction.normalized * speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -109,6 +109,13 @@ public class Enemy : MonoBehaviour
         Life -= damaged;
         }
         LifeBar.localScale = new Vector3(Life / MaxLife, 0.75f);
+    }
+
+    public void SlowDown()
+    {
+        SlowCooldown = 1f;
+        speed = (MaxSpeed / 3) * 2;
+        sprite.color = Color.blue;
     }
 
     public void Die()

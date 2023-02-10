@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 10f35aa6901ad5f409e56cf1204210fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,7 +131,7 @@ Animator:
   m_GameObject: {fileID: 3921682617688042831}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 31e85e7df8a2a82479142acf2775b6f2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 69d9930cededb4942aba440ce2aea2c5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -171,6 +171,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: e0a4fcded9b2baa449245cae4e2c013a, type: 2}
   LifeBar: {fileID: 4384999986860535711}
   Anim: {fileID: 5463396139415930525}
+  sprite: {fileID: 2453900389603326178}
   checkPoints: []
 --- !u!58 &-4635058731289881243
 CircleCollider2D:

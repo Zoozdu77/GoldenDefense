@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c52fe9c7d543024593d635f1b893e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackType: {fileID: 976489712928160528, guid: 1d945fe2109b4904181ff80692c5d4cf, type: 3}
+  attackType: {fileID: 976489712928160528, guid: 9793be8caa547274e9249288e43dd2f1, type: 3}
   CanLevel:
   - {fileID: 5706755354790680609}
   - {fileID: 2972714954307726629}
@@ -332,7 +332,7 @@ Animator:
   m_GameObject: {fileID: 5800592120179069050}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9dd7a7d7c6cd18445b5dec8b601021dd, type: 2}
+  m_Controller: {fileID: 9100000, guid: fde9e69c57a77834695e88583ae65d7a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

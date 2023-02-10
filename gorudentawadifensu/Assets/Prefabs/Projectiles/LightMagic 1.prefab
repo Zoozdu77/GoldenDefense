@@ -81,6 +81,7 @@ MonoBehaviour:
   timeBeforeDestroy: 10
   DestroyOnCollide: 1
   gotTarget: 1
+  SlowDown: 1
 --- !u!50 &3310605386086078883
 Rigidbody2D:
   serializedVersion: 4
@@ -175,7 +176,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 1052690c3bbf06b4a9dea037cc194c17, type: 3}
+  m_Sprite: {fileID: 568363286, guid: 3cdf3555b93e3b543a6ea0965edc77d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
