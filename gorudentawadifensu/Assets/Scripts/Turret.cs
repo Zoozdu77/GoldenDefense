@@ -21,7 +21,7 @@ public class Turret : MonoBehaviour
     public int LevelMax = 10;
     public int Level = 0;
     public int Cost;
-    public int damage;
+    public float damage;
 
     public float AttackRange;
     public float attackSpeed;
@@ -59,6 +59,8 @@ public class Turret : MonoBehaviour
 
         if (isKrauss)
         {
+            int nbEnnemy = GeneralVars.ennemyNumber;
+            Debug.Log(nbEnnemy);
             damage = 1 * GeneralVars.ennemyNumber;
         }
     }

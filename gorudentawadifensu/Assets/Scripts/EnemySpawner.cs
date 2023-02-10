@@ -25,6 +25,7 @@ public class EnemySpawner : MonoBehaviour
             if (enemylist[randomSpawn].GetComponent<Enemy>().data.UnitPrice <= WaveMoney - usedMoney)
             {
                 GameObject newMob = Instantiate(enemylist[randomSpawn], transform.position, transform.rotation, null);
+                GeneralVars.ennemyNumber++;
                 newMob.GetComponent<Enemy>().checkPoints = checkPoints;
                 usedMoney += enemylist[randomSpawn].GetComponent<Enemy>().data.UnitPrice;
                 yield return new WaitForSeconds(1f);

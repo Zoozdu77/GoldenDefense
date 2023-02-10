@@ -198,7 +198,7 @@ MonoBehaviour:
   Level: 1
   Cost: 8000
   damage: 2
-  AttackRange: 2.5
+  AttackRange: 3
   attackSpeed: 2.5
   isKrauss: 0
 --- !u!58 &4425467110182778393

@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public GameObject sprite;
     public GameObject Boom;
 
-    public int Damage;
+    public float Damage;
     public float speed;
     public float timeBeforeDestroy;
     private float cooldown;
@@ -20,6 +20,10 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
+        if (target == null && gotTarget || timeBeforeDestroy <= 0)
+        {
+            Destroy(gameObject);
+        }
         if (gotTarget)
         {
             Vector2 targetPos = target.transform.position;
@@ -28,11 +32,7 @@ public class Bullet : MonoBehaviour
             float angle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
             sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
         }
-        Debug.Log(gameObject.name) ;
-        if (target == null && gotTarget || timeBeforeDestroy <= 0)
-        {
-            Destroy(gameObject);
-        }
+
         timeBeforeDestroy -= Time.deltaTime;
         cooldown -= Time.deltaTime;
         if (target != null)

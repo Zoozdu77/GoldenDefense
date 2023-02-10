@@ -198,9 +198,9 @@ MonoBehaviour:
   Level: 1
   Cost: 4000
   damage: 1
-  AttackRange: 4
-  attackSpeed: 2.5
-  isKrauss: 0
+  AttackRange: 3.7
+  attackSpeed: 1
+  isKrauss: 1
 --- !u!58 &4425467110182778393
 CircleCollider2D:
   m_ObjectHideFlags: 0

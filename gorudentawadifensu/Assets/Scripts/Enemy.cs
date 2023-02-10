@@ -94,7 +94,7 @@ public class Enemy : MonoBehaviour
         EnemyCost = data.UnitPrice;
     }
 
-    public void Damaged(int damaged)
+    public void Damaged(float damaged)
     {
         if (damaged > 0)
         {
@@ -122,6 +122,7 @@ public class Enemy : MonoBehaviour
     {
        GeneralVars.Money += 1000 + 100 * ((int)EnemyCost) + ((int)GeneralVars.BonusHp);
         GeneralVars.score += ((int)EnemyCost * 100);
+        GeneralVars.ennemyNumber--;
 
         Destroy(this.gameObject);
     }
