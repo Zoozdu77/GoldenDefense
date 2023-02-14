@@ -96,7 +96,7 @@ public class Enemy : MonoBehaviour
     {
         MaxLife = data.life + GeneralVars.BonusHp;
         Life = MaxLife;
-        speed = data.speed;
+        MaxSpeed = data.speed;
         Damage = data.Damage;
         EnemyCost = data.UnitPrice;
     }

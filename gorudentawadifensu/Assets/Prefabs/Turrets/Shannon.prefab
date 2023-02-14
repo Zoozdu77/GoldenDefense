@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c52fe9c7d543024593d635f1b893e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackType: {fileID: 976489712928160528, guid: 9f1fa36833003d64d97b1e16d211bfb5, type: 3}
+  attackType: {fileID: 976489712928160528, guid: 1d945fe2109b4904181ff80692c5d4cf, type: 3}
   CanLevel:
   - {fileID: 6181683041529928562}
   - {fileID: 2764464802685593864}

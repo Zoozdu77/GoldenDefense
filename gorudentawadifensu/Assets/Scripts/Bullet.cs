@@ -49,7 +49,7 @@ public class Bullet : MonoBehaviour
             {
                 if (SlowDown)
                 {
-                    collision.GetComponent<Enemy>().SlowDown();
+                    StartCoroutine(collision.GetComponent<Enemy>().SlowDown());
                 } else
                 {
                     collision.GetComponent<Enemy>().Damaged(Damage);
