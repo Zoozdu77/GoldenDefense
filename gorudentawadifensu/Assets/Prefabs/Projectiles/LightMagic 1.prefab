@@ -75,13 +75,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   sprite: {fileID: 3547560486739694560}
-  Boom: {fileID: 0}
+  Boom: {fileID: 976489712928160528, guid: 1729ea1859e7f924b999c5ec36fec94b, type: 3}
   Damage: 0
   speed: 15
   timeBeforeDestroy: 10
   DestroyOnCollide: 1
   gotTarget: 1
-  SlowDown: 1
+  SlowDown: 0
 --- !u!50 &3310605386086078883
 Rigidbody2D:
   serializedVersion: 4
