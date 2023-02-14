@@ -45,12 +45,13 @@ public class Bullet : MonoBehaviour
     {
         if (collision.CompareTag("Enemy") && cooldown <= 0)
         {
-            if(DestroyOnCollide)
+            if (SlowDown)
             {
-                if (SlowDown)
-                {
-                    StartCoroutine(collision.GetComponent<Enemy>().SlowDown());
-                } else
+                StartCoroutine(collision.GetComponent<Enemy>().SlowDown());
+            }
+            else
+            if (DestroyOnCollide)
+            {
                 {
                     collision.GetComponent<Enemy>().Damaged(Damage);
                     if (Boom != null)
