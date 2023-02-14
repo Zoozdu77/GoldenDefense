@@ -40,6 +40,13 @@ public class Enemy : MonoBehaviour
         {
             Die();
         }
+        if (SlowCooldown <= 0)
+        {
+            speed = MaxSpeed;
+        } else
+        {
+            SlowCooldown -= Time.deltaTime;
+        }
 
 
         Vector2 direction = target.transform.position - transform.position;
@@ -111,11 +118,13 @@ public class Enemy : MonoBehaviour
         LifeBar.localScale = new Vector3(Life / MaxLife, 0.75f);
     }
 
-    public void SlowDown()
+    public IEnumerator SlowDown()
     {
         SlowCooldown = 1f;
         speed = (MaxSpeed / 3) * 2;
         sprite.color = Color.blue;
+        yield return new WaitForSeconds(0.5f);
+        sprite.color = Color.white;
     }
 
     public void Die()
