@@ -14849,8 +14849,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -450.96, y: -132.50006}
-  m_SizeDelta: {x: 176.08, y: 100}
+  m_AnchoredPosition: {x: -481.31, y: -132.50006}
+  m_SizeDelta: {x: 115.39, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1441699184
 MonoBehaviour:
@@ -16612,7 +16612,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5668257960255458287}
+      - m_Target: {fileID: 5668257960966802145}
         m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
         m_MethodName: Continue
         m_Mode: 1
@@ -19505,7 +19505,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5668257960255458287}
         m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
-        m_MethodName: Continue
+        m_MethodName: QuitShop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19856,6 +19856,7 @@ GameObject:
   - component: {fileID: 5668257960966802138}
   - component: {fileID: 5668257960966802137}
   - component: {fileID: 5668257960966802144}
+  - component: {fileID: 5668257960966802145}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -19899,6 +19900,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundEffect: []
   SoundSource: {fileID: 0}
+--- !u!114 &5668257960966802145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5668257960966802142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a4b3c6849e6814c9cc01ee2a749337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targettedSpawner: {fileID: 0}
+  Towers: []
+  TowerPrice: []
 --- !u!224 &5668257960989389428
 RectTransform:
   m_ObjectHideFlags: 0

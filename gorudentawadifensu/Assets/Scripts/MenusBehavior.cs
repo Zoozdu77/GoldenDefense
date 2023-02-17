@@ -114,7 +114,7 @@ public class MenusBehavior : MonoBehaviour
     public void Continue()
     {
         Time.timeScale = 1f;
-        gameObject.SetActive(false);
         GeneralVars.OverlayIsActive = false;
+        gameObject.SetActive(false);
     }
 }

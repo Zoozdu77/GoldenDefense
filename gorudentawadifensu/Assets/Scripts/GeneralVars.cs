@@ -40,11 +40,6 @@ public class GeneralVars : MonoBehaviour
         scoreText.text = "Score : " + score.ToString();
         BonusHp = Time.time / 20;
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PauseTheGame();
-        }
-
         for (int i = 0; i < Hearts.Length; i++)
         {
             if (i >= throneHealth)
