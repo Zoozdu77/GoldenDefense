@@ -891,8 +891,8 @@ MonoBehaviour:
   MoneyText: {fileID: 5668257961107867062}
   scoreText: {fileID: 5668257960150210794}
   SpeedButton: {fileID: 5668257960097083151}
-  Speedfast: {fileID: 0}
-  Speedslow: {fileID: 0}
+  Speedfast: {fileID: 21300000, guid: c4d303868c77ddb4e881c7a1a347a787, type: 3}
+  Speedslow: {fileID: 21300000, guid: 9fd7d2f883d63214cb25a443311b45ba, type: 3}
 --- !u!1001 &563922035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18231,10 +18231,10 @@ RectTransform:
   m_Father: {fileID: 5668257959185798024}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -450.96, y: -244}
-  m_SizeDelta: {x: 176.09, y: 100}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 60, y: -250}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5668257960097083150
 MonoBehaviour:
@@ -18312,7 +18312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1b49e5bb60ed7004eb7e62c64803e7c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fd7d2f883d63214cb25a443311b45ba, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19505,7 +19505,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5668257960255458287}
         m_TargetAssemblyTypeName: MenusBehavior, Assembly-CSharp
-        m_MethodName: QuitShop
+        m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
