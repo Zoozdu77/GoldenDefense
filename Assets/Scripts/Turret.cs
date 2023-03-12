@@ -8,7 +8,7 @@ public class Turret : MonoBehaviour
 
     public GameObject attackType;
     public GameObject[] CanLevel;
-    private List<GameObject> targets = new List<GameObject>();
+    private readonly List<GameObject> targets = new();
 
     public Animator Anim;
 

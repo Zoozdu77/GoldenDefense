@@ -10,10 +10,10 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(enemySpawner());
+        StartCoroutine(EnnemySpawner());
     }
 
-    public IEnumerator enemySpawner()
+    public IEnumerator EnnemySpawner()
     {
         yield return new WaitForSeconds(3);
         int usedMoney = 0;
@@ -34,17 +34,17 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(10f);
         if (WaveMoney < 2)
         {
-            WaveMoney = WaveMoney + 0.34f;
+            WaveMoney += 0.34f;
         } else if (WaveMoney < 3)
         {
-            WaveMoney = WaveMoney +0.5f;
+            WaveMoney += 0.5f;
         }else if (WaveMoney < 15)
         {
-            WaveMoney = WaveMoney + 1;
+            WaveMoney++;
         }else
         {
-            WaveMoney = WaveMoney + 2;
+            WaveMoney += 2;
         }
-        StartCoroutine(enemySpawner());
+        StartCoroutine(EnnemySpawner());
     }
 }

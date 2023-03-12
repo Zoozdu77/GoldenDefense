@@ -12,11 +12,15 @@ public class Enemy : MonoBehaviour
 
     public SpriteRenderer sprite;
 
+    [SerializeField] private GameObject deathParticle;
+
+    [SerializeField] private AudioClip death;
+    [SerializeField] private AudioClip damageThrone;
+
     private float speed;
     private float MaxSpeed;
     private float MaxLife;
     private float Life;
-    private float Damage;
     private float EnemyCost;
     private float FireCooldown;
     public GameObject[] checkPoints;
@@ -60,7 +64,7 @@ public class Enemy : MonoBehaviour
         {
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
-        transform.Translate(direction.normalized * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * direction.normalized);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -75,7 +79,8 @@ public class Enemy : MonoBehaviour
             } else
             {
                 GeneralVars.throneHealth--;
-                Debug.Log(GeneralVars.throneHealth);
+                Buttons SoundGestion = GameObject.Find("SoundController").GetComponent<Buttons>();
+                SoundGestion.SoundSource.PlayOneShot(damageThrone);
                 Destroy(gameObject);
             }
         }
@@ -97,7 +102,6 @@ public class Enemy : MonoBehaviour
         MaxLife = data.life + GeneralVars.BonusHp;
         Life = MaxLife;
         MaxSpeed = data.speed;
-        Damage = data.Damage;
         EnemyCost = data.UnitPrice;
     }
 
@@ -129,9 +133,13 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
+        Buttons SoundGestion = GameObject.Find("SoundController").GetComponent<Buttons>();
+        SoundGestion.SoundSource.PlayOneShot(death);
+
         GeneralVars.Money += 700 + 1.5f  * ((int)EnemyCost) + ((int)GeneralVars.BonusHp);
         GeneralVars.score += ((int)EnemyCost * 100);
         GeneralVars.ennemyNumber--;
+        Instantiate(deathParticle, transform.position, transform.rotation, null);
 
         Destroy(this.gameObject);
     }

@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SoundEffect:
-  - {fileID: 8300000, guid: 7d55fb345ded5b847baa18ef63bba567, type: 3}
+  - {fileID: 8300000, guid: dd56e098a76fea943a7e55542b7363b2, type: 3}
   - {fileID: 8300000, guid: 54dfd8fcd670ab4449165ad2fc2a74c4, type: 3}
   SoundSource: {fileID: 1974497902}
 --- !u!4 &1974497904

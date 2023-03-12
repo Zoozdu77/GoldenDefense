@@ -27,8 +27,8 @@ public class Bullet : MonoBehaviour
         if (gotTarget)
         {
             Vector2 targetPos = target.transform.position;
-            targetPos.x = targetPos.x - transform.position.x;
-            targetPos.y = targetPos.y - transform.position.y;
+            targetPos.x -= transform.position.x;
+            targetPos.y -= transform.position.y;
             float angle = Mathf.Atan2(targetPos.y, targetPos.x) * Mathf.Rad2Deg;
             sprite.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
         }
@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
         if (target != null)
         {
             Vector2 direction = target.transform.position - transform.position;
-            transform.Translate(direction.normalized * speed * Time.deltaTime);
+            transform.Translate(speed * Time.deltaTime * direction.normalized);
         }
     }
     private void OnTriggerStay2D(Collider2D collision)

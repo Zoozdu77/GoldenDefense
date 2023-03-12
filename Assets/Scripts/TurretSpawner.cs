@@ -17,11 +17,10 @@ public class TurretSpawner : MonoBehaviour
         {
             if (touch.phase == TouchPhase.Ended && !GeneralVars.OverlayIsActive)
             {
-                RaycastHit hit;
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
-                if (Physics.Raycast(ray, out hit))
+                if (Physics.Raycast(ray, out RaycastHit hit))
                 {
-                    if (hit.transform.gameObject.tag == "turretSpawn")
+                    if (hit.transform.gameObject.CompareTag("turretSpawn"))
                     {
                         if (!hit.transform.GetComponent<TurretSpawner>().istaken)
                         {
@@ -32,7 +31,7 @@ public class TurretSpawner : MonoBehaviour
                         {
                             CanvasUP.SetActive(true);
                             CanvasUP.GetComponent<Upgrade>().targettedSpawner = hit.transform.gameObject;
-                            CanvasUP.GetComponent<Upgrade>().upStart(hit.transform.GetComponent<TurretSpawner>().UnitOn);
+                            CanvasUP.GetComponent<Upgrade>().UpStart(hit.transform.GetComponent<TurretSpawner>().UnitOn);
                             GeneralVars.OverlayIsActive = true;
                         }
                     }

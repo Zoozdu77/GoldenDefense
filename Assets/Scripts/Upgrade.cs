@@ -15,7 +15,7 @@ public class Upgrade : MonoBehaviour
     public int Cost;
 
     #region(upgrade)
-    public void upStart(GameObject unit)
+    public void UpStart(GameObject unit)
     {
         ToUpObject = unit;
         ToUpUnit.sprite = unit.GetComponent<SpriteRenderer>().sprite;

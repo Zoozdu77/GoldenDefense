@@ -139,6 +139,10 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: df660cbb3e48d2842af57b654f5df2fe, type: 2}
   LifeBar: {fileID: 6930163916953046945}
   Anim: {fileID: 5463396139415930525}
+  sprite: {fileID: 0}
+  deathParticle: {fileID: 4284226779541823345, guid: 45760ddc15d995b408e9e5da8c7aac09, type: 3}
+  death: {fileID: 8300000, guid: 6e5e26617b0865a45a63c4d91b44e371, type: 3}
+  damageThrone: {fileID: 8300000, guid: 7d55fb345ded5b847baa18ef63bba567, type: 3}
   checkPoints: []
 --- !u!58 &8120181843283176033
 CircleCollider2D:
@@ -161,6 +165,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 6736018212254312028}
     m_Modifications:
     - target: {fileID: 1721022749774188385, guid: 1fabe90f538ac624785a5574314e3d34, type: 3}
@@ -212,6 +217,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fabe90f538ac624785a5574314e3d34, type: 3}
 --- !u!4 &6930163916953046945 stripped
 Transform:

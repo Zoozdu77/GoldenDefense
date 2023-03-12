@@ -172,6 +172,9 @@ MonoBehaviour:
   LifeBar: {fileID: 4384999986860535711}
   Anim: {fileID: 5463396139415930525}
   sprite: {fileID: 2453900389603326178}
+  deathParticle: {fileID: 4284226779541823345, guid: 45760ddc15d995b408e9e5da8c7aac09, type: 3}
+  death: {fileID: 8300000, guid: 6e5e26617b0865a45a63c4d91b44e371, type: 3}
+  damageThrone: {fileID: 8300000, guid: 7d55fb345ded5b847baa18ef63bba567, type: 3}
   checkPoints: []
 --- !u!58 &-4635058731289881243
 CircleCollider2D:
