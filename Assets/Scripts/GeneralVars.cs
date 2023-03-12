@@ -21,18 +21,14 @@ public class GeneralVars : MonoBehaviour
     public static int TimeSpeed = 1;
     public static float BonusHp;
     public static int ennemyNumber;
-    private Buttons SoundGestion;
 
     private void Start()
     {
-        SoundGestion = GameObject.Find("SoundController").GetComponent<Buttons>();
         Money = 3000;
         score = 0;
         TimeSpeed = 1;
         throneHealth = 3;
         GeneralVars.OverlayIsActive = false;
-        SoundGestion.SoundSource.clip = SoundGestion.SoundEffect[1];
-        SoundGestion.SoundSource.Play();
     }
 
     private void Update()

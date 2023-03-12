@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 
 
@@ -11,8 +12,11 @@ public class Buttons : MonoBehaviour
 
     public void StartGame()
     {
-        SoundSource.PlayOneShot(SoundEffect[0]);
-        DontDestroyOnLoad(gameObject);
+        if (SoundSource != null)
+        {
+            SoundSource.PlayOneShot(SoundEffect[0]);
+            DontDestroyOnLoad(gameObject);
+        }
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);
     }

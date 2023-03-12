@@ -798,6 +798,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -893,6 +894,19 @@ MonoBehaviour:
   SpeedButton: {fileID: 5668257960097083151}
   Speedfast: {fileID: 21300000, guid: c4d303868c77ddb4e881c7a1a347a787, type: 3}
   Speedslow: {fileID: 21300000, guid: 9fd7d2f883d63214cb25a443311b45ba, type: 3}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdc0d45357f9311499b1a16c707d1f18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAtStart: {fileID: 8300000, guid: 54dfd8fcd670ab4449165ad2fc2a74c4, type: 3}
 --- !u!1001 &563922035
 PrefabInstance:
   m_ObjectHideFlags: 0
