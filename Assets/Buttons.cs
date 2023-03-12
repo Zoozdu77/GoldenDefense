@@ -11,8 +11,7 @@ public class Buttons : MonoBehaviour
 
     public void StartGame()
     {
-        SoundSource.clip = SoundEffect[0];
-        SoundSource.Play();
+        SoundSource.PlayOneShot(SoundEffect[0]);
         DontDestroyOnLoad(gameObject);
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);

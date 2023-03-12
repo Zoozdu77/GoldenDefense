@@ -15762,7 +15762,7 @@ GameObject:
   - component: {fileID: 5668257959044242180}
   - component: {fileID: 5668257959044242187}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Rosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15901,7 +15901,7 @@ GameObject:
   - component: {fileID: 5668257959091148181}
   - component: {fileID: 5668257959091148180}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16214,7 +16214,7 @@ GameObject:
   - component: {fileID: 5668257959244273000}
   - component: {fileID: 5668257959244273007}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16286,7 +16286,7 @@ GameObject:
   - component: {fileID: 5668257959272084195}
   - component: {fileID: 5668257959272084194}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16345,7 +16345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cost : 9000
+  m_Text: 'Cost : 10000
 
 '
 --- !u!222 &5668257959272084195
@@ -16409,7 +16409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ushiromiya Kyrie
+  m_Text: Ushiromiya Rudolf
 --- !u!222 &5668257959395805882
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16430,7 +16430,7 @@ GameObject:
   - component: {fileID: 5668257959395805882}
   - component: {fileID: 5668257959395805881}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16489,7 +16489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cost : 10000'
+  m_Text: 'Cost : 15000'
 --- !u!222 &5668257959437011746
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16510,7 +16510,7 @@ GameObject:
   - component: {fileID: 5668257959437011746}
   - component: {fileID: 5668257959437011745}
   m_Layer: 5
-  m_Name: Text (4)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16750,7 +16750,7 @@ GameObject:
   - component: {fileID: 5668257959489017668}
   - component: {fileID: 5668257959489017675}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16832,7 +16832,7 @@ GameObject:
   - component: {fileID: 5668257959516471888}
   - component: {fileID: 5668257959516471895}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17042,7 +17042,7 @@ GameObject:
   - component: {fileID: 5668257959579307374}
   - component: {fileID: 5668257959579307373}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17155,7 +17155,7 @@ GameObject:
   - component: {fileID: 5668257959620358549}
   - component: {fileID: 5668257959620358548}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: shanon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17419,7 +17419,7 @@ GameObject:
   - component: {fileID: 5668257959745212263}
   - component: {fileID: 5668257959745212262}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: rudolf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17622,7 +17622,7 @@ GameObject:
   - component: {fileID: 5668257959862068659}
   - component: {fileID: 5668257959862068658}
   m_Layer: 5
-  m_Name: Text (6)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17681,7 +17681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cost : 8000'
+  m_Text: 'Cost : 7500'
 --- !u!222 &5668257959862068659
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17844,7 +17844,7 @@ GameObject:
   - component: {fileID: 5668257959936310410}
   - component: {fileID: 5668257959936310409}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17904,7 +17904,7 @@ GameObject:
   - component: {fileID: 5668257959946759965}
   - component: {fileID: 5668257959946759964}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17942,7 +17942,7 @@ GameObject:
   - component: {fileID: 5668257959956676351}
   - component: {fileID: 5668257959956676350}
   m_Layer: 5
-  m_Name: Text
+  m_Name: NAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18043,7 +18043,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cost : 4000'
+  m_Text: 'Cost : 4500'
 --- !u!222 &5668257959969145121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18064,7 +18064,7 @@ GameObject:
   - component: {fileID: 5668257959969145121}
   - component: {fileID: 5668257959969145120}
   m_Layer: 5
-  m_Name: Text (5)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18505,7 +18505,7 @@ GameObject:
   - component: {fileID: 5668257960133353197}
   - component: {fileID: 5668257960133353196}
   m_Layer: 5
-  m_Name: Button
+  m_Name: battler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18668,7 +18668,7 @@ GameObject:
   - component: {fileID: 5668257960249109633}
   - component: {fileID: 5668257960249109632}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18777,7 +18777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &5668257960255458287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18800,11 +18800,11 @@ MonoBehaviour:
   - {fileID: 5800592120179069050, guid: 17c47bae59d7f2441949b71533d146cf, type: 3}
   TowerPrice:
   - 3000
-  - 9000
   - 10000
-  - 4000
-  - 8000
-  - 12000
+  - 15000
+  - 4500
+  - 7500
+  - 18000
 --- !u!224 &5668257960278220068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18935,7 +18935,7 @@ GameObject:
   - component: {fileID: 5668257960278220070}
   - component: {fileID: 5668257960278220069}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: krauss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19177,7 +19177,7 @@ GameObject:
   - component: {fileID: 5668257960516871578}
   - component: {fileID: 5668257960516871577}
   m_Layer: 5
-  m_Name: Text (4)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19529,7 +19529,7 @@ GameObject:
   - component: {fileID: 5668257960685965102}
   - component: {fileID: 5668257960685965101}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: kanon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19823,7 +19823,7 @@ GameObject:
   - component: {fileID: 5668257960922411748}
   - component: {fileID: 5668257960922411755}
   m_Layer: 5
-  m_Name: Text (6)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19882,7 +19882,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rudolf's wife, her envy allow her to shoot fast
+  m_Text: sucker merry barrellers
 --- !u!114 &5668257960966802137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20066,7 +20066,7 @@ GameObject:
   - component: {fileID: 5668257960989389430}
   - component: {fileID: 5668257960989389429}
   m_Layer: 5
-  m_Name: Text (3)
+  m_Name: description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20357,7 +20357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Cost : 12000
+  m_Text: 'Cost : 18000
 
 '
 --- !u!222 &5668257961170568634
@@ -20380,7 +20380,7 @@ GameObject:
   - component: {fileID: 5668257961170568634}
   - component: {fileID: 5668257961170568633}
   m_Layer: 5
-  m_Name: Text (7)
+  m_Name: price
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

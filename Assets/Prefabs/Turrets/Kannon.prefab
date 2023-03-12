@@ -197,7 +197,7 @@ MonoBehaviour:
   nametag: Kannon
   LevelMax: 10
   Level: 1
-  Cost: 7000
+  Cost: 7500
   damage: 2
   AttackRange: 3
   attackSpeed: 2.5

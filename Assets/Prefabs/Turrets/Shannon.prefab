@@ -196,7 +196,7 @@ MonoBehaviour:
   nametag: Shannon
   LevelMax: 10
   Level: 1
-  Cost: 1000
+  Cost: 10000
   damage: 0
   AttackRange: 3
   attackSpeed: 0.1

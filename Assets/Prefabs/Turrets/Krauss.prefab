@@ -197,7 +197,7 @@ MonoBehaviour:
   nametag: Krauss
   LevelMax: 10
   Level: 1
-  Cost: 4000
+  Cost: 4500
   damage: 1
   AttackRange: 3.7
   attackSpeed: 1
