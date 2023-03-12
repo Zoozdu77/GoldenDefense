@@ -31,7 +31,8 @@ public class GeneralVars : MonoBehaviour
         TimeSpeed = 1;
         throneHealth = 3;
         GeneralVars.OverlayIsActive = false;
-        SoundGestion.SoundSource.PlayOneShot(SoundGestion.SoundEffect[1]);
+        SoundGestion.SoundSource.clip = SoundGestion.SoundEffect[1];
+        SoundGestion.SoundSource.Play();
     }
 
     private void Update()
@@ -75,7 +76,7 @@ public class GeneralVars : MonoBehaviour
             TimeSpeed = 1;
         } else
         {
-            TimeSpeed = 2;
+            TimeSpeed = 3;
         }
     }
 

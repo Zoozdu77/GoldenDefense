@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
 
     private void Update()
     {
-        if (target == null && gotTarget || timeBeforeDestroy <= 0)
+        if (!target && gotTarget || timeBeforeDestroy <= 0)
         {
             Destroy(gameObject);
         }
