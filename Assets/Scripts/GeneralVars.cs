@@ -75,7 +75,7 @@ public class GeneralVars : MonoBehaviour
             TimeSpeed = 1;
         } else
         {
-            TimeSpeed = 3;
+            TimeSpeed = 2;
         }
     }
 

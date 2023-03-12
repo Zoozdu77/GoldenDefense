@@ -129,7 +129,7 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-       GeneralVars.Money += 1000 + 100 * ((int)EnemyCost) + ((int)GeneralVars.BonusHp);
+       GeneralVars.Money += 700 * ((int)EnemyCost) + ((int)GeneralVars.BonusHp);
         GeneralVars.score += ((int)EnemyCost * 100);
         GeneralVars.ennemyNumber--;
 

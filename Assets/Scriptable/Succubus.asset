@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2676ec042e2eb6745ae03494cab2fe06, type: 3}
   m_Name: Succubus
   m_EditorClassIdentifier: 
-  life: 20
-  speed: 2
-  Damage: -5
+  life: 25
+  speed: 2.5
+  Damage: -6
   UnitPrice: 5
+  unitType: 0
+  Sprite: {fileID: 0}

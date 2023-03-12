@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2676ec042e2eb6745ae03494cab2fe06, type: 3}
   m_Name: Doggo
   m_EditorClassIdentifier: 
-  life: 3
-  speed: 6
+  life: 4
+  speed: 7
   Damage: 1
-  UnitPrice: 4
+  UnitPrice: 3
   unitType: 0
   Sprite: {fileID: 0}

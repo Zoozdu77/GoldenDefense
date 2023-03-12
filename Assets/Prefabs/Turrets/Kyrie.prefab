@@ -281,7 +281,7 @@ MonoBehaviour:
   nametag: Kyrie
   LevelMax: 10
   Level: 1
-  Cost: 12000
+  Cost: 18000
   damage: 9
   AttackRange: 2.7
   attackSpeed: 0.7

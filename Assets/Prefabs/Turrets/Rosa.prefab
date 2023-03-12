@@ -365,7 +365,7 @@ MonoBehaviour:
   nametag: Rosa
   LevelMax: 10
   Level: 1
-  Cost: 10000
+  Cost: 15000
   damage: 14
   AttackRange: 4
   attackSpeed: 1.5
